@@ -1,0 +1,1512 @@
+[
+  {
+    "id": "reconcile-20261021-BDN-CAT-003",
+    "taskId": "BDN-CAT-003",
+    "title": "Catalog follow-ups — backup, metadata and rights",
+    "from": "Not separately tracked",
+    "to": "Pending",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Follow-ups separated from the completed catalog patch. Destination approval already recorded; do not ask for it again. Task creation authorizes no new external changes.",
+    "evidence": "Live sheet exceptions remain OPEN. EX-044 records destination approval but copy execution/checksum verification still pending. EX-043 audience settings, EX-045 title typo, EX-046 week identity and EX-047 editorial/rights checks remain unresolved. No fresh Studio or backup-execution proof obtained."
+  },
+  {
+    "id": "reconcile-20261021-BDN-CAT-002",
+    "taskId": "BDN-CAT-002",
+    "title": "Media catalog patch v3 — applied and verified",
+    "from": "Review",
+    "to": "Verified complete",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Delivered scope closed; remaining gates retained in separate open records. Previous record: Patch v3 — reviewed; application approval pending — Obtain founder approval to apply 22 cell edits and 21 rows; fresh before-value checks and readback verification required.",
+    "evidence": "Direct native Google Sheet readback on2026-10-21 against BDN_v1.3.1_Patch_v3_EXECUTABLE_2026-10-14.xlsx: all22 intended cell edits match; unchanged reference matches; all21 added rows present.20 rows match exactly; backup exceptionEX-044 contains later founder approval and pending copy/checksum instructions. Underlying audio identity claims were not re-performed. Rights and publication gates remain. No sheet edit performed during this readback. Previous evidence retained: All 23 existing-cell references matched live values, 21 destinations empty, 246 unique master IDs, no new source/exception ID collisions. Audio identity evidence is Claude-supplied, not independently repeated. Consent/rights gates preserved."
+  },
+  {
+    "id": "reconcile-20261021-CC-NEXT-04",
+    "taskId": "CC-NEXT-04",
+    "title": "Core browser harness and acceptance evidence — delivered",
+    "from": "Blocked",
+    "to": "Verified complete",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Delivered scope closed; remaining gates retained in separate open records. Previous record: Independent acceptance delivered — remaining regressions open — After completed R1c handoff, Claude builds exact candidate 8 and repeats full suite ten times per browser, no retries; score R1c with R1b.",
+    "evidence": "The browser-emulator harness and corrected main-app core acceptance evidence are delivered. Captured D10 readiness correction atc822b6e achieved200/200 targeted and1520/0 full acceptance on unchanged518e9e5; later PR79 combined required acceptance160/160 independently reviewed. Historical failures and diagnostic buckets retained; no physical-device, natural-stall or live-provider closure. PR79 source515dc1d92bf237dae4d70ff2cc38c2aee07d5ae1 / tested merge950addf164e4f789c6488bf5af7dd60dc2e43ce8, identical tree: independent combined implementation/required acceptance PASS;160/160 acceptance,10/10 release browser/control,13 ZIP inventories verified. Overall workflow retains two N2-D2 diagnostic failures. This completes the isolated core candidate/review, not repeat-stability, devices, protected-branch enforcement, film integration or release. Previous evidence retained: Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested."
+  },
+  {
+    "id": "reconcile-20261021-CC-NEXT-02",
+    "taskId": "CC-NEXT-02",
+    "title": "Combined core integration review — bounded PASS",
+    "from": "Blocked",
+    "to": "Verified complete",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Delivered scope closed; remaining gates retained in separate open records. Previous record: Combined integration review — After completed R1c handoff, Claude builds exact candidate 8 and repeats full suite ten times per browser, no retries; score R1c with R1b.",
+    "evidence": "PR79 source515dc1d92bf237dae4d70ff2cc38c2aee07d5ae1 / tested merge950addf164e4f789c6488bf5af7dd60dc2e43ce8, identical tree: independent combined implementation/required acceptance PASS;160/160 acceptance,10/10 release browser/control,13 ZIP inventories verified. Overall workflow retains two N2-D2 diagnostic failures. This completes the isolated core candidate/review, not repeat-stability, devices, protected-branch enforcement, film integration or release. Previous evidence retained: Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested."
+  },
+  {
+    "id": "reconcile-20261021-CC-006",
+    "taskId": "CC-006",
+    "title": "Combined core candidate — delivered and reviewed",
+    "from": "Blocked",
+    "to": "Verified complete",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Delivered scope closed; remaining gates retained in separate open records. Previous record: Integrated coaching candidate delivered — acceptance pending — After completed R1c handoff, Claude builds exact candidate 8 and repeats full suite ten times per browser, no retries; score R1c with R1b.",
+    "evidence": "PR79 source515dc1d92bf237dae4d70ff2cc38c2aee07d5ae1 / tested merge950addf164e4f789c6488bf5af7dd60dc2e43ce8, identical tree: independent combined implementation/required acceptance PASS;160/160 acceptance,10/10 release browser/control,13 ZIP inventories verified. Overall workflow retains two N2-D2 diagnostic failures. This completes the isolated core candidate/review, not repeat-stability, devices, protected-branch enforcement, film integration or release. Previous evidence retained: Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested."
+  },
+  {
+    "id": "reconcile-20261021-CC-010",
+    "taskId": "CC-010",
+    "title": "Film audit and implementation roadmap — delivered",
+    "from": "Review",
+    "to": "Verified complete",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Delivered scope closed; remaining gates retained in separate open records. Previous record: Film audit delivered — Review implementation sequence, processing spike and estimates; return founder-reviewed film roadmap.",
+    "evidence": "Film audit/specification delivered in PR51 and reviewed in PR52; subsequent S1/S2a/r4/S2b scopes and independent verdicts establish the sequenced implementation roadmap. This closes the audit deliverable only. Full Film Analyzer implementation, current effort estimates, owner terms and launch acceptance remain separate; historical estimates are not delivery promises. Previous evidence retained: Supplied closeout: PR #51/#52; estimate 88–134 engineer-hours or 106–161 with contingency, excluding existing security work and approval delays."
+  },
+  {
+    "id": "reconcile-20261021-CC-003",
+    "taskId": "CC-003",
+    "title": "Film security design and synthetic tests — delivered",
+    "from": "Review",
+    "to": "Verified complete",
+    "at": "2026-10-21T10:18:32.121Z",
+    "note": "Delivered scope closed; remaining gates retained in separate open records. Previous record: Film security design and reviewable tests — Implement reviewed reservation-bound video authorization and negative cases after film decisions.",
+    "evidence": "Reservation-bound S1 PR82 at49bd3f3, S2a PR83 atdcf26be, r4 contract6764af9/client PR84 at19cca98, S2b PR85 atda13f834 and cleanup PR86 at7f3b757 have bounded acceptance. Security design and reviewable synthetic tests are delivered. LFS PR87, combined integration, runtime containment, real Storage and activation remain open separately. Previous evidence retained: Supplied closeout: #49/#53 tests delivered; no production-rule or film-support acceptance."
+  },
+  {
+    "id": "bdn-hosted-20261016-BDN-AEO-001",
+    "taskId": "BDN-AEO-001",
+    "title": "Website repairs delivered — independent review remains",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-16T12:47:08.033503+00:00",
+    "note": "Hosted desktop samples and11 HTTP checks pass. Conversion finding: external intake still BDSN/Big Dreams Sports Network; Featured Partner website2 posts versus funnel3 features. No price or funnel edits. Header readability open.15 audit findings retained; no waiver. Production unchanged.",
+    "evidence": "All356 original source files hash-verified. Final source 867348bc5304cda5f67cd62e68f3927f57d06077; evidence head 2357c818ba827f6a0a9f2fda596e8f47fe036633. Full suite292/292; all5 typechecks; production buildPASS; lint0errors/20warnings; media/newsroom real-build privacy canariesPASS. Three malformed-anchor cases fail before repair and pass after. Fresh audit20→15 (2critical/6high/7moderate remain). No skip/retry/assertion weakening. Hosted exact2357 preview6ad219cd: sampled desktop flows andHTTP11/11 pass. Follow-up documentation0b897792; no source changes or full playback acceptance."
+  },
+  {
+    "id": "bdn-hosted-20261016-BDN-006",
+    "taskId": "BDN-006",
+    "title": "Independent PASS/FAIL/BLOCKED review",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-16T12:47:08.033503+00:00",
+    "note": "Independent review is pending; reviewer availability not established and no assignment message sent.",
+    "evidence": "Reviewable source 867348bc5304cda5f67cd62e68f3927f57d06077; docs/evidence head 2357c818ba827f6a0a9f2fda596e8f47fe036633. Implementation-owner checks292/292 and privacy/buildPASS are not independent acceptance. Hosted follow-up0b897792 adds desktop journey evidence, dependency exposure table and unresolved sponsor/header findings; no independent reviewer run or dispatch."
+  },
+  {
+    "id": "bdn-hosted-20261016-BDN-002",
+    "taskId": "BDN-002",
+    "title": "Website acceptance report",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-16T12:47:08.033503+00:00",
+    "note": "Partial implementation-owner acceptance, not independent review. Mobile/physical devices and actual provider playback remain open. Header phone wraps; sponsor intake uses old parent brand and different Featured Partner social deliverables.",
+    "evidence": "Hosted Chrome desktop1363x936 on2357c818: sampled keyboard/news/article/malformed-hash journeys pass; HTTP11/11 expected statuses. YouTube iframe/metadata loads but media progress unverified (time0/readyState0). No approved Spotify episode.15 audit findings remain. Follow-up docs0b897792; source unchanged."
+  },
+  {
+    "id": "bdn-20261016-BDN-VALIDATE-01",
+    "taskId": "BDN-VALIDATE-01",
+    "title": "Website local validation packet delivered",
+    "from": "Unrecorded milestone",
+    "to": "Verified complete",
+    "at": "2026-10-16T12:27:19.550664+00:00",
+    "note": "Completion applies to delivery and verification of the local validation packet only. No website GO or production authorization.",
+    "evidence": "All356 original source files hash-verified. Final source 867348bc5304cda5f67cd62e68f3927f57d06077; evidence head 2357c818ba827f6a0a9f2fda596e8f47fe036633. Full suite292/292; all5 typechecks; production buildPASS; lint0errors/20warnings; media/newsroom real-build privacy canariesPASS. Three malformed-anchor cases fail before repair and pass after. Fresh audit20→15 (2critical/6high/7moderate remain). No skip/retry/assertion weakening."
+  },
+  {
+    "id": "bdn-20261016-BDN-006",
+    "taskId": "BDN-006",
+    "title": "Independent PASS/FAIL/BLOCKED review",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-16T12:27:19.550664+00:00",
+    "note": "Independent review is pending; reviewer availability not established and no assignment message sent.",
+    "evidence": "Reviewable source 867348bc5304cda5f67cd62e68f3927f57d06077; docs/evidence head 2357c818ba827f6a0a9f2fda596e8f47fe036633. Implementation-owner checks292/292 and privacy/buildPASS are not independent acceptance."
+  },
+  {
+    "id": "bdn-20261016-BDN-002",
+    "taskId": "BDN-002",
+    "title": "Website acceptance report",
+    "from": "Blocked",
+    "to": "Review",
+    "at": "2026-10-16T12:27:19.550664+00:00",
+    "note": "Code/build/privacy checks delivered; user-flow coverage remains open. Owner remains as recorded; no independent reviewer dispatched.",
+    "evidence": "Local report delivered at 2357c818ba827f6a0a9f2fda596e8f47fe036633:292testsPASS, build/typechecks/privacyPASS. Browser/device/real-provider playback not tested;15dependency findings retained. This is a partial acceptance packet, not full website release acceptance."
+  },
+  {
+    "id": "bdn-20261016-BDN-AEO-001",
+    "taskId": "BDN-AEO-001",
+    "title": "Website repairs delivered — independent review remains",
+    "from": "In progress",
+    "to": "Review",
+    "at": "2026-10-16T12:27:19.550664+00:00",
+    "note": "Validated repair batch delivered. Launcher portability, build type config, malformed-anchor handling and compatible lockfile fixes implemented. Independent browser/device/real-player acceptance and dependency migrations remain open. Main/PR38 and live production unchanged; no unattended run claimed.",
+    "evidence": "All356 original source files hash-verified. Final source 867348bc5304cda5f67cd62e68f3927f57d06077; evidence head 2357c818ba827f6a0a9f2fda596e8f47fe036633. Full suite292/292; all5 typechecks; production buildPASS; lint0errors/20warnings; media/newsroom real-build privacy canariesPASS. Three malformed-anchor cases fail before repair and pass after. Fresh audit20→15 (2critical/6high/7moderate remain). No skip/retry/assertion weakening."
+  },
+  {
+    "id": "reconcile-20261016-BDN-001",
+    "taskId": "BDN-001",
+    "title": "Website baseline and release blocker report delivered",
+    "from": "Blocked",
+    "to": "Verified complete",
+    "at": "2026-10-16T12:05:58.115482+00:00",
+    "note": "Report deliverable complete. Privacy final-head replay, current dependency audit, production SHA, real player/device testing, source/rights and release gates remain open in existing tasks.",
+    "evidence": "Canonical repo/main/PR38 verified through GitHub. Baseline committed before repair at8706baed43d12214a2e4dab66644ca00061cf9ca; report and bounded validation on isolated draft PR39 head01e54ea05a38f8d867aec1e842fc8f033459c5ed.92 directed policy cases passed. Original executive v1.0 scope and production deployment SHA remain unavailable; full website acceptance not established."
+  },
+  {
+    "id": "reconcile-20261016-CC-DIAG-02",
+    "taskId": "CC-DIAG-02",
+    "title": "FX-02 redacted trace and DOM recovery delivered",
+    "from": "Unrecorded milestone",
+    "to": "Verified complete",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "Evidence-delivery milestone complete; not product/release acceptance.",
+    "evidence": "Requested action logs, decoded DOM and snapshot census recovered; stall cause remains open under CC-QA-01. Exact committed report/evidence ba881bdbb646d29091ee42f5ab2f43921f9969af; issue #39 comment 6214536781."
+  },
+  {
+    "id": "reconcile-20261016-CC-DIAG-01",
+    "taskId": "CC-DIAG-01",
+    "title": "D10 captured-failure investigation delivered",
+    "from": "Unrecorded milestone",
+    "to": "Verified complete",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "Evidence-delivery milestone complete; not product/release acceptance.",
+    "evidence": "Captured premature-readiness checkpoint investigation and timeline; independent checkpoint correction/rerun remain under CC-QA-01. Exact committed report/evidence ba881bdbb646d29091ee42f5ab2f43921f9969af; issue #39 comment 6214536781."
+  },
+  {
+    "id": "reconcile-20261016-BDN-AEO-001",
+    "taskId": "BDN-AEO-001",
+    "title": "Website engineering audit and isolated optimization",
+    "from": "Pending",
+    "to": "In progress",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "ACTIVE outside Coach Core, per Oct16 founder direction. Audit and isolated development only; Big Dreams production deployment remains unauthorized.",
+    "evidence": "Canonical repository DigitalBlueprint239/dream-field-hub-5bd41c59 verified; main 8857733b0a5a22b63f90ff802866a3b0cc69d5cc; unmerged draft PR38 head 9ba6ca30de5c679c029ad7178a1fbe4e63d0e160. Source privacy remediation, reference guards, features and security register read."
+  },
+  {
+    "id": "reconcile-20261016-CC-FIX-04",
+    "taskId": "CC-FIX-04",
+    "title": "R1c original-team fallback repair — acceptance pending",
+    "from": "In progress",
+    "to": "Review",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "Investigation and narrow repair delivered, independent acceptance pending. R3 ask-once, R4 config and missing-original-team decisions remain open. Preserved runtime/PR71 unchanged.",
+    "evidence": "GitHub #39 comment 6214937032: draft PR72; tested source 35e0d77887ba87d2714706f0cdbb2511b442d1a2; docs head 48f44730f6e300cd3085b51ffd2533a279988d44. Agent reports 489/489 unit tests, TypeScript0, production build PASS. No independent browser/staging/device acceptance."
+  },
+  {
+    "id": "reconcile-20261016-CC-QA-01",
+    "taskId": "CC-QA-01",
+    "title": "Remaining browser readiness and stalls — D10 / H2 / N3 / FX-02",
+    "from": "In progress",
+    "to": "In progress",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "N2 acceptance closed separately. D10 checkpoint rerun, H2, FX02, N3 and original SDK edit/save risks remain unresolved. Completed evidence recovery is not a repaired stall.",
+    "evidence": "D10/FX02 investigation delivered at ba881bdbb646d29091ee42f5ab2f43921f9969af; #39 comment 6214536781. Captured D10 read precedes team readiness; original team visible about 12ms after snapshot. FX02 redacted logs/DOM recovered, intervening gap unexplained. Latest completed probe acceptance 1,518/2; no N3 recurrence in that batch does not close earlier symptoms."
+  },
+  {
+    "id": "reconcile-20261016-ROM-001",
+    "taskId": "ROM-001",
+    "title": "Episode text packages received",
+    "from": "Review",
+    "to": "Reported complete",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "Completed text handoff only, reported in the source conversation. Binary accessibility and production clearance are separate existing tasks; no audio release claimed.",
+    "evidence": "Manifest and all three package texts received in conversation. Binary asset access is not verified."
+  },
+  {
+    "id": "reconcile-20261016-CC-N2-ACCEPT-01",
+    "taskId": "CC-N2-ACCEPT-01",
+    "title": "N2 acceptance — exact-runtime repair verified",
+    "from": "In progress",
+    "to": "Verified complete",
+    "at": "2026-10-16T12:00:59.058823+00:00",
+    "note": "Verified completion is limited to N2 team-creation confirmation/retry/readback acceptance. Selected-team repair has supporting regression evidence, not a blanket guarantee. MVP remains NO-GO; no merge or deployment.",
+    "evidence": "Independent corrected harness 4cc7ccf, run 38835170412: N2-R7/R7b/R8/R8b 10/10 per desktop engine, R8b faults proven in-run. Full acceptance 1,517/3: D10-06e and two N3 recurrences remain open outside this N2 deliverable. Later cf6377f run 38842101522: acceptance 1,518/2, R7/R7b/R8/R8b pass; D10 and Google sign-in failures retained. Historical 1,520/0 had a vacuous R8b component; never use as corrected full-matrix proof."
+  },
+  {
+    "id": "reconcile-20261013-ROM-002",
+    "taskId": "ROM-002",
+    "title": "One complete reviewable pilot package",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Original listening and correction-text approvals do not close pilot production or release.",
+    "evidence": "Required: Playable master, reviewed transcript, source/rights ledger and exact versions. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-CC-005",
+    "taskId": "CC-005",
+    "title": "Review-ready Playbook candidate and integration checklist",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "REPAIRS DELIVERED; ACCEPTANCE PENDING. Physical devices and retained exit remain open.",
+    "evidence": "Supplied closeout: source 04946b7; Linux full suite 140 PASS, EXIT=0; Firefox save/history 30/30. Physical tablets NOT TESTED."
+  },
+  {
+    "id": "reconcile-20261013-BDN-001",
+    "taskId": "BDN-001",
+    "title": "Media Engine release blocker report",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BLOCKED / NEEDS VERIFICATION. Existing dashboard has a repository/PR pointer, but canonical release candidate and original v1.0 scope are not verified.",
+    "evidence": "Required: exact repo/PR/SHA, dated tests and privacy-gate disposition. Do not assume PR #38 resolved."
+  },
+  {
+    "id": "reconcile-20261013-BDN-002",
+    "taskId": "BDN-002",
+    "title": "Website acceptance report",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Owner PROPOSED. BDN-001 and approved test assets required. Release acceptance separate from Coach Core.",
+    "evidence": "Required: Device/browser results, metadata and draft-leakage checks, residual-risk review. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-CC-002",
+    "taskId": "CC-002",
+    "title": "Auth acceptance evidence and remaining blockers",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BRANCH/EMULATOR PASS; STAGING BLOCKED. No real authentication acceptance established.",
+    "evidence": "Supplied closeout: 140 PASS per engine at candidate 9b84573; 160 skipped entries excluded; release build 13 PASS. Earlier 2f8c61e also reported 140/browser. Four tests drive session states directly, not screen workflows."
+  },
+  {
+    "id": "reconcile-20261013-CC-003",
+    "taskId": "CC-003",
+    "title": "Film security design and reviewable tests",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "RULES PASS; FILM SUPPORT OPEN. Checked rules reportedly still allow only image/PDF uploads up to 5 MB.",
+    "evidence": "Supplied closeout: #49/#53 tests delivered; no production-rule or film-support acceptance."
+  },
+  {
+    "id": "reconcile-20261013-CC-004",
+    "taskId": "CC-004",
+    "title": "OpenAI-only gateway/film contract and staging test plan",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "TEXT GATEWAY DELIVERED; LIVE/FRAME WORK OPEN. Current allowlist text-only. AI-off test proves refusal, not working generation.",
+    "evidence": "Supplied closeout: #46/#47/#49; live secrets/configuration, invalid-token/origin checks and film contract remain gates."
+  },
+  {
+    "id": "reconcile-20261013-QF-001",
+    "taskId": "QF-001",
+    "title": "Read-only permission/email blocker report",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BLOCKED / NEEDS VERIFICATION. Owner remains PROPOSED where originally unconfirmed. Need staging source, permitted identities and technical executor.",
+    "evidence": "Required: Exact environment, sender/recipient restrictions and synthetic test evidence where authorized. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-OPS-001",
+    "taskId": "OPS-001",
+    "title": "Native Google Sheet plus conversion report",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BLOCKED / NEEDS VERIFICATION. Owner remains PROPOSED where originally unconfirmed. Need exact source workbook, destination and native-Sheet integrity report; media catalog conversion is not automatically the missing v1.0.",
+    "evidence": "Required: Native Sheet URL/type; counts, formula and link checks; unchanged sharing. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-OPS-002",
+    "taskId": "OPS-002",
+    "title": "Authorized move evidence or explicit blocker",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BLOCKED / NEEDS VERIFICATION. Owner remains PROPOSED where originally unconfirmed. Need exact paths, move authorization and before/after manifest.",
+    "evidence": "Required: Before/after counts, sizes and checksums where supported. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-OPS-003",
+    "taskId": "OPS-003",
+    "title": "Evidence-backed Phase 3A closure packet",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BLOCKED / NEEDS VERIFICATION. Owner remains PROPOSED where originally unconfirmed. Original Phase 3A scope/checklist unavailable; closure cannot be inferred.",
+    "evidence": "Required: Each original task accounted for; founder acceptance. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-QF-002",
+    "taskId": "QF-002",
+    "title": "Written facility/event confirmation and named operator",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "BLOCKED / NEEDS VERIFICATION. Owner remains PROPOSED where originally unconfirmed. Approved event hours do not establish facility reservation; inspect actual correspondence.",
+    "evidence": "Required: Reservation/correspondence and confirmed checklist; planned date/time is not reservation proof. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-GOV-001",
+    "taskId": "GOV-001",
+    "title": "Complete source-linked portfolio inventory",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Original v1.0 missing. This dashboard is not proof the original master has been recovered. IDs stay provisional pending reconciliation.",
+    "evidence": "Required: Preserved original IDs, restrictions, links and crosswalk. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-20261013-CC-010",
+    "taskId": "CC-010",
+    "title": "Film audit delivered",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "AUDIT/SPEC DELIVERED; FILM NOT IMPLEMENTED. Full delivery UNCOMMITTED. Oct 14 is audit checkpoint only; Oct 27–30 conditional assessment, not promised launch.",
+    "evidence": "Supplied closeout: PR #51/#52; estimate 88–134 engineer-hours or 106–161 with contingency, excluding existing security work and approval delays."
+  },
+  {
+    "id": "reconcile-20261013-CC-CODEX-01",
+    "taskId": "CC-CODEX-01",
+    "title": "Playbook reliability acceptance and retained-exit investigation",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "REPAIRS DELIVERED; ACCEPTANCE OPEN. Retained touch batch 29/30; screenshot-time browser exit followed completed checks but cause remains unknown. Do not erase failure.",
+    "evidence": "Supplied closeout: source 04946b7; Linux full suite 140 PASS, EXIT=0; Firefox save/history 30/30. Physical tablets NOT TESTED."
+  },
+  {
+    "id": "reconcile-20261013-CC-CODEX-02",
+    "taskId": "CC-CODEX-02",
+    "title": "Account-scoped Playbook persistence",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "OPEN. D10 approval unblocks legacy import only. PR #55 is a delivered D10 slice, not completed account-isolated Playbook persistence.",
+    "evidence": "Supplied closeout: #55 source 6a412e71993038069882920c9c16ba30914534bc reports 16/16 focused mocked/unit/DOM tests; real P13 pending. Full reported suite: 376 passes, 2 failures, FieldMemo load failure; include #40 repair in combined candidate."
+  },
+  {
+    "id": "reconcile-20261013-CC-CODEX-03",
+    "taskId": "CC-CODEX-03",
+    "title": "Editable practice plans",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "OPEN. Contract disputes resolved: title 200 characters; notes 5,000. Film links still depend on Film Analyzer.",
+    "evidence": "Supplied closeout: PR #53 a4cea1e64d107acfbdccd49c91d9ba6a712dab5c; three security CI jobs successful. No client completion established."
+  },
+  {
+    "id": "reconcile-20261013-CC-NEXT-01",
+    "taskId": "CC-NEXT-01",
+    "title": "Independent Playbook regression review",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "REVIEW DELIVERED; RELIABILITY OPEN. Windows/Linux difference noted; retained browser-exit cause unresolved.",
+    "evidence": "Supplied closeout: source 04946b7; Linux full suite 140 PASS, EXIT=0; Firefox save/history 30/30. Physical tablets NOT TESTED."
+  },
+  {
+    "id": "reconcile-20261013-CC-NEXT-02",
+    "taskId": "CC-NEXT-02",
+    "title": "Combined integration review",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "CANDIDATE PASS; FINAL CANDIDATE OPEN. Existing integration excludes #55 and unfinished CC02/03. Resolve #42/#45 documentation by preserving both sets of requirements.",
+    "evidence": "Supplied closeout: candidate 9b84573; CI run 38436729577 recorded 280 passes total (140/browser), 160 skipped placeholder entries excluded. Release-build proof 13 PASS/0 FAIL; web suite 366/366 agent-reported."
+  },
+  {
+    "id": "reconcile-20261013-CC-NEXT-03",
+    "taskId": "CC-NEXT-03",
+    "title": "Founder decision packet D1–D10",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "PACKET DELIVERED; DECISIONS OPEN. Two practice-plan field disputes resolved; Oct 14 noon contract escalation no longer needed. Existing Oct 14 dashboard checkpoint remains proposed, not a separately confirmed deadline.",
+    "evidence": "D10 founder approval in supplied conversation and Issue #39; older #52 checklist reportedly stale."
+  },
+  {
+    "id": "reconcile-20261013-ROM-001",
+    "taskId": "ROM-001",
+    "title": "Episode text packages received",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "TEXT HANDOFF RECEIVED — do not request it again. Roman reports stale Ep1 date claim and claim counts corrected in all three packages/manifest. Valid JSON is not release clearance.",
+    "evidence": "Manifest and all three package texts received in conversation. Binary asset access is not verified."
+  },
+  {
+    "id": "reconcile-20261013-AP-02",
+    "taskId": "AP-02",
+    "title": "Metadata disclosure applied",
+    "from": "Reported complete",
+    "to": "Reported complete",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Roman-reported metadata disclosure completion; not independently verified here. Existing approval retained; no repeated approval request.",
+    "evidence": "Roman reports show + Episodes 1–3 saved and read back; show 591/600. Not independently reopened here."
+  },
+  {
+    "id": "reconcile-20261013-POD-QC-01",
+    "taskId": "POD-QC-01",
+    "title": "Sources and disputed audio timestamps",
+    "from": "Pending",
+    "to": "Reported complete",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Roman reports research/listening closed; audio remediation and release clearance remain OPEN. Ledger reported 19/1/4; meanings not inferred. Ep1 audio states no date; website copy September 28, 2026.",
+    "evidence": "Supplied Roman report: founder listened to original clips; corrected passages approved as text only. Corrected audio and spoken disclosure do not exist. Require primary links and exact versions for independent verification."
+  },
+  {
+    "id": "reconcile-20261013-POD-QC-02",
+    "taskId": "POD-QC-02",
+    "title": "Three blog articles approved",
+    "from": "Approved",
+    "to": "Approved",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Existing three article-text approvals preserved. Exact current revisions still need verification; publication unconfirmed.",
+    "evidence": "Founder approvals supplied in conversation; /articles.md preserved as existing draft evidence. Text approval does not clear audio, voice rights or publication."
+  },
+  {
+    "id": "reconcile-20261013-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice rights and disclosure derivatives",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Existing internal Meta Shortwave voice commercial rights UNRESOLVED. Keeping current voices is not clearance. No purchase, replacement generation or release authorized. Preserve original masters.",
+    "evidence": "Roman-reported backend identity and checksum preservation; no verified provider channel, AP-03 inquiry not sent. Need written license, approved replacement versions and listening QA."
+  },
+  {
+    "id": "reconcile-20261013-POD-QC-05",
+    "taskId": "POD-QC-05",
+    "title": "Episode 4 and voice test decisions",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "No new episode or voice test approved. Reported Oct 14 6 AM slot is not a verified founder commitment.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-20261013-POD-QC-06",
+    "taskId": "POD-QC-06",
+    "title": "Existing episode correction proposal",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Approved correction text ≠ produced corrected audio. Spoken disclosure still unproduced. Separate execution authorization required.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-20261013-SEC-001",
+    "taskId": "SEC-001",
+    "title": "Revoke oasis-drive-bot credential",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "REVOCATION UNVERIFIED. Escalate immediately if credential identity/access ambiguous. No credential changed by dashboard reconciliation.",
+    "evidence": "Required: redacted exact identifier, timestamp and authoritative inactive status; nickname alone insufficient."
+  },
+  {
+    "id": "reconcile-20261013-BDN-005",
+    "taskId": "BDN-005",
+    "title": "Private podcast/article intake",
+    "from": "Pending",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Crosswalk: POD-QC-03 in supplied report is this existing BDN-005 task, not duplicate work. Private drafts only; no audio rehosting or release. Exact assets and schema still required.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-20261013-CC-D3",
+    "taskId": "CC-D3",
+    "title": "Video formats and limits",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "WORKING recommendation only — D3 was proposed but not approved. Short coaching clips, not full games.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-20261013-CC-D4",
+    "taskId": "CC-D4",
+    "title": "Retention",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "WORKING proposal only. Deletion not authorized.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-20261013-CC-D5",
+    "taskId": "CC-D5",
+    "title": "Staging budget",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "D5 NOT APPROVED. Proposed $50 OpenAI limit + $20 Functions threshold is not a guaranteed $70 ceiling; enforcement may lag; Firestore/Storage remain outside that total. Controls/account availability unverified. Shutdown switch is design-only, not approved for build/activation.",
+    "evidence": "Supplied closeout says staging checklist NOT READY TO REQUEST DEPLOYMENT; 10 dependency findings (3 critical, 5 high, 2 moderate) reported in Node/build paths; not freshly audited here."
+  },
+  {
+    "id": "reconcile-20261013-CC-D10",
+    "taskId": "CC-D10",
+    "title": "Legacy local plays",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "LOCKED — Coach Drew explicitly approved D10 on Oct 13. Implementation/testing only; no merge, deployment, spending or deletion. Do not reopen the decision.",
+    "evidence": "Founder response supplied in conversation: “Yes let’s approve D10”. Closeout links Issue #39 decision and PR #55 implementation; real P13 browser/rules acceptance remains pending."
+  },
+  {
+    "id": "reconcile-20261013-OPS-HOLD",
+    "taskId": "OPS-HOLD",
+    "title": "Phase 3B remains on HOLD",
+    "from": "Hold",
+    "to": "Hold",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Crosswalk: OPS-004 in closeout = existing OPS-HOLD. Phase 3A closure never authorizes Phase 3B.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-20261013-CC-NEXT-04",
+    "taskId": "CC-NEXT-04",
+    "title": "Browser emulator harness delivered; acceptance cases remain open",
+    "from": "Not registered",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "HARNESS DELIVERED, not MVP acceptance. Emulator sign-ins do not prove real Google/email login; token signatures and origin restrictions need staging. Physical tablets untested.",
+    "evidence": "Supplied closeout: 140 PASS per engine at candidate 9b84573; 160 skipped entries excluded; release build 13 PASS. Earlier 2f8c61e also reported 140/browser. Four tests drive session states directly, not screen workflows."
+  },
+  {
+    "id": "reconcile-20261013-CC-001",
+    "taskId": "CC-001",
+    "title": "Security repairs delivered; acceptance open",
+    "from": "Not registered",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Plan/repairs delivered; live configuration and founder checklist #44 unresolved.",
+    "evidence": "Required: exact candidate, reproducible evidence, retained failures and scope-specific founder acceptance."
+  },
+  {
+    "id": "reconcile-20261013-CC-006",
+    "taskId": "CC-006",
+    "title": "Combined integration candidate",
+    "from": "Not registered",
+    "to": "Review",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Test candidate exists; integration remains open. Claude Code reviewer.",
+    "evidence": "Required: exact candidate, reproducible evidence, retained failures and scope-specific founder acceptance."
+  },
+  {
+    "id": "reconcile-20261013-CC-007",
+    "taskId": "CC-007",
+    "title": "Staging readiness and rollback packet",
+    "from": "Not registered",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Owner PROPOSED; Claude security review; deployment not authorized.",
+    "evidence": "Required: exact candidate, reproducible evidence, retained failures and scope-specific founder acceptance."
+  },
+  {
+    "id": "reconcile-20261013-CC-008",
+    "taskId": "CC-008",
+    "title": "Founder core and film-journey acceptance",
+    "from": "Not registered",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "WAITING for safe approved candidate; Kevin joint authority retained.",
+    "evidence": "Required: exact candidate, reproducible evidence, retained failures and scope-specific founder acceptance."
+  },
+  {
+    "id": "reconcile-20261013-CC-009",
+    "taskId": "CC-009",
+    "title": "October 20 core-functionality demonstration",
+    "from": "Not registered",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Oct 20 demo target; precise time proposed. Supersedes full-MVP launch wording. Kevin joint authority.",
+    "evidence": "Required: exact candidate, reproducible evidence, retained failures and scope-specific founder acceptance."
+  },
+  {
+    "id": "reconcile-20261013-BDN-003",
+    "taskId": "BDN-003",
+    "title": "Podcast commercial-rights and corrected-audio clearance packet",
+    "from": "Not registered",
+    "to": "Blocked",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "Preparation owner PROPOSED. Corrected audio and spoken AI disclosure not produced. Apple submission HOLD.",
+    "evidence": "Original listening review and correction-text approval only; binaries/commercial rights unverified."
+  },
+  {
+    "id": "reconcile-20261013-BDN-004",
+    "taskId": "BDN-004",
+    "title": "Media Engine release acceptance",
+    "from": "Not registered",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "WAITING. No release authority inherited from Coach Core.",
+    "evidence": "Required: exact candidate, privacy/playback evidence and explicit release approval."
+  },
+  {
+    "id": "reconcile-20261013-GOV-002",
+    "taskId": "GOV-002",
+    "title": "Confirm unresolved portfolio owners and dates",
+    "from": "Not registered",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "No confirmed missed commitment established; proposed checkpoints are not commitments.",
+    "evidence": "Required: dated explicit owner/date decisions."
+  },
+  {
+    "id": "reconcile-20261013-BDN-AEO-001",
+    "taskId": "BDN-AEO-001",
+    "title": "Website engineering audit and isolated optimization",
+    "from": "Not registered",
+    "to": "Pending",
+    "at": "2026-10-14T01:06:53Z",
+    "note": "AUTHORIZED FOR AUDIT AND ISOLATED DEVELOPMENT ONLY. Mission registered, not executed here; no overnight run claimed. No deadline committed. Preserve brand, youth privacy, existing instructions and separate human journalism from AI podcast.",
+    "evidence": "Required: architecture/baseline, top findings, reproducible metrics (NOT MEASURED where unavailable), prioritized backlog, safe isolated changes if feasible, tests, before/after comparison, rollback and reviewable draft PR/patch. No merge, production deployment, spending, production data/permissions changes, publishing or feature activation."
+  },
+  {
+    "id": "reconcile-2132-ROM-002",
+    "taskId": "ROM-002",
+    "title": "One complete reviewable pilot package",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "Original listening/correction-text approvals stand. Roman’s new audition package is preparation only; no selected new voices or corrected/disclosure masters yet. See POD-QC-04 and POD-VOICE-01.",
+    "evidence": "Required: Playable master, reviewed transcript, source/rights ledger and exact versions. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-2132-OPS-001",
+    "taskId": "OPS-001",
+    "title": "Native Google Sheet plus conversion report",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "Original command-center conversion scope/source remains unresolved. Latest media-catalog XLSX progress is tracked separately under BDN-CAT-001; do not assume it recovers Executive Command Center v1.0 or completes Phase 3A.",
+    "evidence": "Required: Native Sheet URL/type; counts, formula and link checks; unchanged sharing. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-2132-GOV-001",
+    "taskId": "GOV-001",
+    "title": "Complete source-linked portfolio inventory",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "Original Executive Project Command Center v1.0 still missing. The recovered BDN media JSON and reconciled media workbook are separate sources and do not close this task. IDs remain provisional until original portfolio scope is reconciled.",
+    "evidence": "Required: Preserved original IDs, restrictions, links and crosswalk. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-2132-CC-CODEX-02",
+    "taskId": "CC-CODEX-02",
+    "title": "Account-scoped Playbook persistence",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "OPEN. D10 slice delivered; ordinary cloud editing/conflict/sign-out recovery unfinished. Next implementation prompt prepared: CC02 → CC03 → focused dependency repair; no delivery/start claimed for that prompt.",
+    "evidence": "GitHub checked in this conversation: #55 draft/open/unmerged, evidence head 819802c81f7d3e08408b0287ec9fc87d4a60ed99; tested source 6a412e71993038069882920c9c16ba30914534bc. Published logs record 16/16 focused mocked/unit/DOM passes; full suite 376 passes/2 failures plus FieldMemo load failure. P13 remains pending. Tests were inspected, not re-run here."
+  },
+  {
+    "id": "reconcile-2132-CC-CODEX-03",
+    "taskId": "CC-CODEX-03",
+    "title": "Editable practice plans",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "OPEN. Title limit 200; notes 5,000 agreed. Follow CC02 with lossless editable plan save/reopen and actual P16 acceptance. Prompt prepared, not evidence of execution. Film work remains separate.",
+    "evidence": "Supplied closeout: PR #53 a4cea1e64d107acfbdccd49c91d9ba6a712dab5c; three security CI jobs successful. No client completion established."
+  },
+  {
+    "id": "reconcile-2132-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice rights and disclosure derivatives",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "PREPARATION DELIVERED; CLEARANCE/PURCHASE BLOCKED. Roman supplied six voice briefs and audition package. No purchase, generation or publication reported. Three previews are charged once per design request, not triple. The prior 493-character passage plus six 146-character design requests estimates 3,834 credits at 1 credit/character; replacement script requires recount. Keep 10,000-credit stop. Existing Shortwave audio rights remain unresolved.",
+    "evidence": "Verified official Help Center guidance: qualifying paid-subscription output retains commercial usability after cancellation, subject to service terms; hosting/voice continuity not guaranteed. Voice Design “experimental” versus Beta Services designation remains unresolved for intended production. No exclusive ownership or permanent-ID claim. New audition text contains no asserted sports statistic and labels itself private review."
+  },
+  {
+    "id": "reconcile-2132-POD-QC-05",
+    "taskId": "POD-QC-05",
+    "title": "Episode 4 script and production decision",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "PENDING. Voice purchase/audition is now tracked separately under POD-VOICE-01. Voice selection, episode production and publication do not inherit each other’s approval.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-2132-CC-NEXT-04",
+    "taskId": "CC-NEXT-04",
+    "title": "Browser emulator harness delivered; acceptance cases remain open",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "HARNESS DELIVERED; ACCEPTANCE OPEN. Next Claude prompt prepared for independent #55 review and actual P13 accept/decline/repeat/retry/account-switch/cross-team/fidelity tests, followed by Chromium/Firefox ×10 without retries. No new P13 PASS or start claimed. Emulator evidence is not real-auth or physical-device acceptance.",
+    "evidence": "Supplied closeout: 140 PASS per engine at candidate 9b84573; 160 skipped entries excluded; release build 13 PASS. Earlier 2f8c61e also reported 140/browser. Four tests drive session states directly, not screen workflows."
+  },
+  {
+    "id": "reconcile-2132-BDN-003",
+    "taskId": "BDN-003",
+    "title": "Podcast commercial-rights and corrected-audio clearance packet",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "Preparation owner PROPOSED. Paid-provider commercial-use guidance has been located, but exact Voice Design feature clearance and founder purchase/selection decisions remain open. Corrected audio/spoken disclosure not produced; existing Shortwave rights unresolved. Apple submission HOLD.",
+    "evidence": "Original listening review and correction-text approval only; binaries/commercial rights unverified."
+  },
+  {
+    "id": "reconcile-2132-BDN-AEO-001",
+    "taskId": "BDN-AEO-001",
+    "title": "Website engineering audit and isolated optimization",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "AUTHORIZED FOR AUDIT AND ISOLATED DEVELOPMENT ONLY; registered, not executed here. Latest proposed Codex handoff queues this separate website mission behind Coach Core client work. No concurrent capacity or unattended run claimed; no delivery date committed.",
+    "evidence": "Required: architecture/baseline, top findings, reproducible metrics (NOT MEASURED where unavailable), prioritized backlog, safe isolated changes if feasible, tests, before/after comparison, rollback and reviewable draft PR/patch. No merge, production deployment, spending, production data/permissions changes, publishing or feature activation."
+  },
+  {
+    "id": "reconcile-2132-POD-VOICE-01",
+    "taskId": "POD-VOICE-01",
+    "title": "Voice purchase and six-candidate audition approval",
+    "from": "Not registered",
+    "to": "Pending",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "PROPOSED, NOT APPROVED. Q1–Q3/J1–J3 voice selection comes after listening. No automatic fallback to catalog voices. Feature commercial-use ambiguity must be resolved before payment/generation. Does not approve episode rerenders, Episode 4 or publishing.",
+    "evidence": "Roman reports package prepared; no purchase or generation. Proposed all-in $22 ceiling is Drew2.0’s recommendation, not founder approval. Original 493-character script contained unsupported factual claims; replacement is a hypothetical $1,000 offer and private-audition disclosure."
+  },
+  {
+    "id": "reconcile-2132-BDN-CAT-001",
+    "taskId": "BDN-CAT-001",
+    "title": "Media catalog source verification and native Google Sheet",
+    "from": "Not registered",
+    "to": "Blocked",
+    "at": "2026-10-14T01:32:30Z",
+    "note": "XLSX DELIVERED / NATIVE SHEET BLOCKED. This is the media catalog, not the missing Executive Command Center v1.0 or proof OPS-001 is its conversion. Claude reported browser sign-in/connectivity blocker. Raw Source A recovered here; EX-039 not yet compared/closed. No publication or release approval.",
+    "evidence": "Read-only workbook checks: 11 tabs; evidence rows A=142, B=315, added Drive=26 (18 candidates, 8 unmatched); 246 master records include 2 planning docs, leaving 244 non-planning records/candidates. 39 exceptions: 9 blocked, 10 founder decisions, 11 open, 1 partial, 8 resolved; 31 unresolved. 30 confirmed duplicate-review entries; 73 unresolved candidates. Candidate matches are not confirmed identities. No native Sheet URL returned."
+  },
+  {
+    "id": "reconcile-2137-BDN-CAT-001",
+    "taskId": "BDN-CAT-001",
+    "title": "Media catalog v1.3.1 — native Sheet pending",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T01:37:14Z",
+    "note": "Claude reports v1.3.1 complete: EX-039 and five other exceptions closed this round; 7 catalog decisions remain. Native Sheet pending. New workbook not inspected here; zero release approvals. Executive v1.0 recovery remains separate.",
+    "evidence": "Claude-reported Oct 13, 9:37 PM ET; v1.3.1 not independently inspected here. Raw Source A: 142/142 IDs, none missing/extra; 127 episodes, 2 planning docs, 9 clip sets, 4 supplements. Master: 246 = 127 episodes + 2 planning + 117 new candidates; 13 packages evidence-only. Episode matches: 69 evidenced, 30 candidate-only, 28 no YouTube link. 126 distinct Source A productions, both Week 11 IDs retained. Production classification reported: 244 human-produced BDN, 2 personal; AI show separate. 42 exceptions: 14 closed, 28 remaining (11 open, 9 blocked, 7 founder decisions, 1 partial). EX-007/021/028/039/040/041 closed this round; EX-042 opened for possible S2_WEEK5–10 season mislabels. 18 Drive matches remain provisional; 8 unmatched recordings unresolved, not proven unpublished. Zero release-ready; all 246 not approved."
+  },
+  {
+    "id": "reconcile-native-v131-BDN-CAT-001",
+    "taskId": "BDN-CAT-001",
+    "title": "Media catalog v1.3.1 — native Sheet verified",
+    "from": "Blocked",
+    "to": "Verified complete",
+    "at": "2026-10-14T01:43:27Z",
+    "note": "Native Google Sheet created and source values verified across all 11 tabs. Media conversion blocker closed; catalog remains incomplete with 28 unresolved exceptions and zero release-ready records.",
+    "evidence": "Drew2.0 inspected attached v1.3.1 and imported it through Google Drive on Oct 13, 2026. Native MIME and owner-only permissions verified. All 11 tab names/order, occupied row counts, frozen first row/column and populated source cell values match; zero value differences. 246 master records; 244 HUMAN_BDN and 2 personal; all 246 NOT APPROVED and release_ready=NO. 42 exceptions: 14 resolved, 11 open, 9 blocked, 7 founder decisions, 1 partial. Evidence tab: 142 A, 315 B, 26 Drive search rows plus 4 verification entries. No formulas, filters, data validation or native tables in source. Header formatting spot-checked across every tab; exported native file rendered for visual review. Existing narrow-column text clipping retained with source layout. Workbook contains Claude’s EX-039 source comparison and research evidence; underlying raw JSON/media research not independently repeated in this conversion."
+  },
+  {
+    "id": "reconcile-2231-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice rights and disclosure derivatives",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T02:31:59Z",
+    "note": "CORRECTED PACKAGE REPORTED DELIVERED; FEATURE CLEARANCE UNRESOLVED. Roman reports replacement passage 451 characters and preview excerpt 130 characters. One design generation includes three previews billed once: 130 + 451 = 581 estimated credits per candidate; six candidates = 3,486; reserve = 6,514 under 10,000-credit operational stop. Arithmetic checked here; exact replacement passage not attached in this update, so character count is Roman-reported. Actual credit consumption must accompany samples. This supersedes prior 493/146-character estimates. No purchase, generation or publication reported. Existing Shortwave rights remain unresolved; originals and episode/publication holds preserved.",
+    "evidence": "Roman report supplied Oct 13, 2026 10:31 PM ET: corrected estimate and exact bounded proposal delivered. Official-document review reportedly found no explicit Beta Service designation for Voice Design, but “still experimental” versus “or similar designation” remains ambiguous. Absence of a beta label is not recorded as clearance. Exact provider-support question prepared but unsent. No independent provider-policy recheck in this dashboard update. No exclusive ownership or permanent-ID claim."
+  },
+  {
+    "id": "reconcile-2231-POD-VOICE-01",
+    "taskId": "POD-VOICE-01",
+    "title": "Voice purchase and six-candidate audition approval",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T02:31:59Z",
+    "note": "PROPOSED, NOT GRANTED: “One month of Creator plus the six-candidate audition, maximum $22 TOTAL including tax, promotional price applied if eligible. No annual billing, add-ons, extra credits or paid overages. Stop if checkout exceeds $22. Cancel renewal after confirming paid access continues through the purchased period.” Keep 10,000-credit operational stop and report actual usage. Q1–Q3/J1–J3 selected by listening later. Automatic premade/Library fallback removed; alternatives require Coach Drew’s choice. Feature clearance unresolved. Episode rerenders, Episode 4 and publication remain separately gated.",
+    "evidence": "Roman reports corrected audition package ready: 451-character passage; 130-character design excerpt; 3,486-credit six-candidate first pass and 6,514 reserve. Arithmetic verified, supplied character count not independently recounted. Feature clearance remains unresolved; support question unsent. No purchase or generation."
+  },
+  {
+    "id": "founder-20261014-D1",
+    "taskId": "CC-D1",
+    "title": "Youth frames to OpenAI",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:23:38Z",
+    "note": "Keep youth-frame transmission off by default. Enabling it requires separate founder approval after consent, data-handling and security review. Frame analysis remains required for the full MVP.",
+    "evidence": "Coach Drew answered “yes” to the exact proposed D1 statement in this conversation at 7:23 AM ET on Oct 14, 2026."
+  },
+  {
+    "id": "founder-20261014-D2",
+    "taskId": "CC-D2",
+    "title": "Private playback",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:26:13Z",
+    "note": "Require the authorized viewer to remain signed in throughout private video playback. A reusable bearer link that independently permits playback for 10 minutes does not satisfy this requirement.",
+    "evidence": "Coach Drew explicitly stated: “playback require the authorized viewer to stay signed in throughout” at 7:26 AM ET on Oct 14, 2026."
+  },
+  {
+    "id": "founder-20261014-D3",
+    "taskId": "CC-D3",
+    "title": "Video formats and limits",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:35:38Z",
+    "note": "MVP uploads: MP4 with H.264 video; maximum 100,000,000 bytes, five minutes and 1080p. Validate actual file content server-side and provide clear rejection messages.",
+    "evidence": "Coach Drew answered “yes thats good for the mvp.” to the MP4/H.264, 100 MB (100,000,000 bytes), five-minute, 1080p proposal with actual-file validation and clear rejection messages."
+  },
+  {
+    "id": "founder-20261014-D4-video",
+    "taskId": "CC-D4",
+    "title": "Retention — MVP video limit approved; cleanup pending",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T11:38:45Z",
+    "note": "Approved: 30-day video retention for the MVP, with clear notice before automatic deletion. Long-term product goal: users can save their full footage library. Remaining decision: proposed 24-hour failed-upload and one-hour temporary-frame cleanup timings.",
+    "evidence": "Coach Drew stated: “i want my user to be able to save all there footage but we can start with 30 day video limit for the mvp” at 7:38 AM ET on Oct 14, 2026."
+  },
+  {
+    "id": "founder-20261014-D4-complete",
+    "taskId": "CC-D4",
+    "title": "Retention — MVP policy approved",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:41:18Z",
+    "note": "MVP retention: failed/incomplete uploads 24 hours; temporary analysis images one hour; uploaded videos 30 days with clear notice before automatic video deletion. Long-term goal: users can save their full footage library.",
+    "evidence": "Founder first stated: “i want my user to be able to save all there footage but we can start with 30 day video limit for the mvp”. Then answered “yes o approve” to the separate 24-hour failed/incomplete-upload and one-hour temporary-analysis-image cleanup question."
+  },
+  {
+    "id": "founder-20261014-D5-CC-D5",
+    "taskId": "CC-D5",
+    "title": "MVP budget discretion delegated",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:46:03Z",
+    "note": "Use judgment to fund the necessary Coach Core MVP launch work. Start with a $100 first-month planning allowance chosen by Drew2.0; revise against verified all-in costs when required. Prioritize essentials and account for AI, compute, database, storage and transfer.",
+    "evidence": "Coach Drew stated: “for the MVP go with what make sense if i need more then do more if i need what ever you think it will take to launch the mvp”. Budget discretion granted; exact costs and controls not yet verified. Previously reported staging checklist was NOT READY TO REQUEST DEPLOYMENT; dependency findings and real-auth/token/origin checks still require current verification."
+  },
+  {
+    "id": "founder-20261014-D5-CC-002",
+    "taskId": "CC-002",
+    "title": "Auth acceptance evidence and remaining blockers",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T11:46:03Z",
+    "note": "Run real Google/email-link, refresh, logout and denial checks when the staging candidate passes readiness review. D5 budget discretion is approved; staging readiness remains unverified.",
+    "evidence": "Budget dependency clarified; technical readiness status unchanged."
+  },
+  {
+    "id": "founder-20261014-D5-CC-NEXT-04",
+    "taskId": "CC-NEXT-04",
+    "title": "Browser emulator harness delivered; acceptance cases remain open",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T11:46:03Z",
+    "note": "Activate P13 against #55; replace placeholders as client features land and retain blocked labels until tested.",
+    "evidence": "Budget dependency clarified; technical readiness status unchanged."
+  },
+  {
+    "id": "founder-20261014-D5-CC-007",
+    "taskId": "CC-007",
+    "title": "Staging readiness and rollback packet",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T11:46:03Z",
+    "note": "Close readiness checklist and prepare exact candidate/rollback packet.",
+    "evidence": "Budget dependency clarified; technical readiness status unchanged."
+  },
+  {
+    "id": "founder-20261014-D6",
+    "taskId": "CC-D6",
+    "title": "Processing license",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:49:11Z",
+    "note": "Engineering selects the appropriate FFmpeg build, documents its license obligations, and completes the review before deployment. Escalate any material licensing restriction to Coach Drew and Drew2.0.",
+    "evidence": "Coach Drew answered “yes approve next” to the proposal: “Let engineering select the appropriate build, document its license obligations, and complete that review before deployment. Escalate any material licensing restriction to us.”"
+  },
+  {
+    "id": "founder-20261014-D7",
+    "taskId": "CC-D7",
+    "title": "Upload rights and consent",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:52:26Z",
+    "note": "Initial private beta uses synthetic test footage only, with no real minors’ footage. Require an unchecked-by-default upload confirmation using the approved wording. Review youth-footage consent separately before expanding the beta; D1 remains in force.",
+    "evidence": "Coach Drew answered “yes approved” to D7’s synthetic-only initial private beta, unchecked permission checkbox, exact wording and separate youth-consent review."
+  },
+  {
+    "id": "founder-20261014-D8",
+    "taskId": "CC-D8",
+    "title": "OpenAI data handling",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:55:20Z",
+    "note": "Before enabling frame analysis, engineering must document what data leaves Coach Core, the exact API/model used, retention and deletion rules, and image-related exceptions. Privacy claims must match verified account settings. Youth-frame transmission still requires separate approval under D1.",
+    "evidence": "Coach Drew answered “approve” to the exact D8 review requirement, explicitly presented as approval of the review requirement rather than unverified provider terms or activation."
+  },
+  {
+    "id": "founder-20261014-D9",
+    "taskId": "CC-D9",
+    "title": "Frame model",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T11:58:08Z",
+    "note": "Engineering verifies image-capable models available in the actual account, evaluates them on synthetic test footage, and selects the lowest-cost option meeting documented coaching-quality and response-time requirements. Record model, results and expected cost before production use.",
+    "evidence": "Coach Drew answered “approve next” to the D9 selection requirements, including synthetic test footage, verified account availability, documented quality/latency/cost, and D8 review before testing."
+  },
+  {
+    "id": "report-existing-creator-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice rights and disclosure derivatives",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T12:02:38Z",
+    "note": "Existing Creator account reported; $22 new-purchase request superseded. Audition permission and written clearance remain pending. No purchase, generation or renewal change.",
+    "evidence": "Roman report supplied Oct 13, 2026 10:31 PM ET: corrected estimate and exact bounded proposal delivered. Official-document review reportedly found no explicit Beta Service designation for Voice Design, but “still experimental” versus “or similar designation” remains ambiguous. Absence of a beta label is not recorded as clearance. Exact provider-support question prepared but unsent. No independent provider-policy recheck in this dashboard update. No exclusive ownership or permanent-ID claim."
+  },
+  {
+    "id": "report-existing-creator-POD-VOICE-01",
+    "taskId": "POD-VOICE-01",
+    "title": "Existing-account six-candidate audition approval",
+    "from": "Pending",
+    "to": "Pending",
+    "at": "2026-10-14T12:02:38Z",
+    "note": "Existing Creator account reported; $22 new-purchase request superseded. Audition permission and written clearance remain pending. No purchase, generation or renewal change.",
+    "evidence": "Roman report supplied by Coach Drew Oct 14, 2026 8:02 AM ET: account screenshot from 7:40 AM reportedly shows Creator plan and 352,498 credits. Screenshot and live account not independently inspected here. Estimated first pass 3,486 credits (~0.99% of reported balance), reserve 6,514 under unchanged 10,000-credit stop. No generation reported. Support question prepared, not sent."
+  },
+  {
+    "id": "founder-20261014-audition-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice rights and disclosure derivatives",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T12:06:38Z",
+    "note": "Roman: send the now-authorized Voice Design clearance question; retain the written response. Once clearance and authorized account access/credits are verified, run the approved six-candidate private audition within 10,000 credits and return samples plus actual usage.",
+    "evidence": "Founder approved revised existing-account scope; support send/generation not executed in this update."
+  },
+  {
+    "id": "founder-20261014-audition-POD-VOICE-01",
+    "taskId": "POD-VOICE-01",
+    "title": "Existing-account audition — conditionally approved",
+    "from": "Pending",
+    "to": "Approved",
+    "at": "2026-10-14T12:06:38Z",
+    "note": "Roman is authorized to send the prepared Voice Design clearance question. After written clearance and verification of account access/credits, generate six private audition samples using the existing Creator plan. Maximum 10,000 credits; report actual consumption.",
+    "evidence": "Founder approved revised existing-account scope; support send/generation not executed in this update."
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-POD-QC-05",
+    "taskId": "POD-QC-05",
+    "title": "Episode 4 v1.3.1 — approved and frozen",
+    "to": "Approved",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "SCRIPT APPROVED AND FROZEN. Approval covers text only. Audio generation, episode rendering and publishing remain unauthorized. No stylistic rewrites.",
+    "evidence": "Supplied approval confirmation identifies approval-record-2026-10-14.md, script-v1.3.1.txt and retained source register/change log. Approximate 11-minute runtime; underlying audit not independently repeated here.",
+    "from": "Pending"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice auditions — awaiting ElevenLabs written clearance",
+    "to": "Blocked",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "WAITING ON ELEVENLABS SUPPORT, not another key submission or founder script decision. Roman reports secure-vault access and Creator account verified, 352,498 credits remaining and 0 used at last live check. Six auditions: 0/6 generated; nothing to listen to yet. No purchase needed. Cap includes all operations, failed calls and retries; measure actual balance movement before/after each operation. No episode rendering or publishing authorized.",
+    "evidence": "Roman-reported: support inquiry emailed at 9:00 AM EDT Oct 14; reply still pending at last report. elevenlabs-clearance-watch reportedly active about every 30 minutes, next reported run 9:36 AM EDT; stops on clear, denied or ambiguous response. Monitor/account not independently rechecked by this dashboard update.",
+    "from": "Blocked"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-POD-VOICE-01",
+    "taskId": "POD-VOICE-01",
+    "title": "Existing-account audition — conditionally approved",
+    "to": "Approved",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "CONDITIONALLY APPROVED — Q1–Q3 and J1–J3 only. Access/balance confirmed by Roman; written support clearance is the remaining generation gate. 0/6 samples reported generated. Hard cap 10,000 credits including failures/retries; no purchase, overages, subscription changes, episode generation or publishing. Final voice selection remains with Coach Drew.",
+    "evidence": "Founder audition authorization retained. Roman reports Creator active, secure key working, 352,498 credits remaining and 0 used at last live account check; not independently rechecked here.",
+    "from": "Approved"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-BDN-003",
+    "taskId": "BDN-003",
+    "title": "Podcast commercial-rights and corrected-audio clearance packet",
+    "to": "Blocked",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "Written Voice Design clearance pending; existing account access/balance verified by Roman. No purchase needed. Voice selection follows six private auditions; corrected episode masters and spoken disclosure remain unproduced. Apple submission and publishing remain HOLD.",
+    "evidence": "Original listening review and correction-text approval only; binaries/commercial rights unverified.",
+    "from": "Blocked"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-ROM-002",
+    "taskId": "ROM-002",
+    "title": "One complete reviewable pilot package",
+    "to": "Blocked",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "Episode 4 v1.3.1 text approved/frozen. Six private auditions conditionally approved, 0/6 generated pending written ElevenLabs clearance. No episode-production or publishing authorization; original listening/correction-text approvals retained.",
+    "evidence": "Required: Playable master, reviewed transcript, source/rights ledger and exact versions. Evidence of completed outcome is not established unless stated in the source status above.",
+    "from": "Blocked"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-BDN-CAT-001",
+    "taskId": "BDN-CAT-001",
+    "title": "Media catalog v1.3.1 — native Sheet verified",
+    "to": "Verified complete",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "NATIVE SHEET EXISTS; RECONCILED — INCOMPLETE. Five patch groups applied across 25 cells and read back here; one instruction already satisfied, 18 instructions held. Corrected two evidence statuses and one duplicate-review status using pre-existing corroboration; all 21 conversion-queue owners set UNASSIGNED; calendar Week-2 slot marked PROPOSED - BLOCKED. No rights status, IDs, sharing or publishing permissions changed. Prior/current values and rationale retained in cell notes. Pilot remains blocked by rights/editorial decisions; BDSTV/After the Whistle also depend on athlete policy D-07. Duration/date matches alone do not prove exact-content identity. Coach’s Corner minor-reference edit review remains open. The Business of the Game stays outside human-library counts.",
+    "evidence": "Native Sheet previously verified with 11 tabs, 246 unique master IDs and source preservation. This conversation: 25 userEnteredValue/note edits read back successfully: Reconciliation Evidence E154/E372, Duplicate Review F97, Podcast Conversion Queue N2:N22, Programming Calendar F3. Patch: 24 instructions = 5 applied groups, 1 no-op, 18 held. Current production ceiling at most 242 remains unproven; do not substitute unresolved-count claims from withheld changes.",
+    "from": "Verified complete"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-CC-006",
+    "taskId": "CC-006",
+    "title": "Coach Core candidate — final validation in progress",
+    "to": "In progress",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "Latest supplied screenshot reports client source freezing for final browser/dependency validation. No final readiness acceptance or deployment confirmed. Existing security, film, physical-device and joint release gates remain.",
+    "evidence": "Screenshot observed in this conversation: 414/414 suite passes including cloned-tab isolation/sign-out acknowledgement; production dependency findings 10 → 0, 98 development/test findings remain disclosed; 25 files changed. Agent progress display only; tests not independently rerun here.",
+    "from": "Review"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-OPS-003",
+    "taskId": "OPS-003",
+    "title": "Evidence-backed Phase 3A closure packet",
+    "to": "Blocked",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "CLAUDE-REPORTED Phase 3A closeout: two open items remain — discovery archive move and cloud-key revocation. Today’s reconciliation checked existence/size, not full hashes. 49 keepers and HOLD items reportedly intact. No deletion or move executed by this dashboard update.",
+    "evidence": "Supplied Claude closeout: 47 duplicates + 2 FRI copies removed; financial/custody moves and six log copies completed. Downloads 471. Recovered storage estimate 11,394,221,853 bytes (10.61 GiB), not measured free-space change. Ledgers reported updated, not independently inspected here.",
+    "from": "Blocked"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-OPS-002",
+    "taskId": "OPS-002",
+    "title": "Discovery archive move — pending",
+    "to": "Blocked",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "Claude reports the source intact and the destination available; native local move remains pending. Sensitive filename and paths omitted from dashboard.",
+    "evidence": "Claude closeout supplied Oct 14: stalled partial copy previously removed; original remains intact. No completed move evidence received.",
+    "from": "Blocked"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:24:51.359696Z-SEC-001",
+    "taskId": "SEC-001",
+    "title": "Revoke oasis-drive-bot credential",
+    "to": "Blocked",
+    "at": "2026-10-14T13:24:51.359696Z",
+    "note": "REVOCATION STILL OPEN. Local credential removal does not revoke cloud access. Claude reports local removal recorded by another session; cloud revocation unverified. No credential or access changed here.",
+    "evidence": "Supplied Claude closeout: cloud-key identity known in restricted ledger; session lacked Google Cloud access. No revocation confirmation supplied. Do not display key identifiers or secret material in dashboard.",
+    "from": "Blocked"
+  },
+  {
+    "id": "reconcile-2026-10-14T13:41:27.823004Z-CC-CODEX-02",
+    "taskId": "CC-CODEX-02",
+    "title": "Account-scoped Playbook persistence",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T13:41:27.823004Z",
+    "note": "IMPLEMENTATION DELIVERED; ACCEPTANCE PENDING. Authorized play/plan save/reopen, scoped drafts, conflicts, offline retry, sign-out recovery and D10 claim protections documented. AI generation disabled; film blocked. Independent P10–P17/P13, REST authorization review, Firefox stability and physical/staging checks remain. No merge or deployment approval.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T13:41:27.823004Z-CC-CODEX-03",
+    "taskId": "CC-CODEX-03",
+    "title": "Editable practice plans",
+    "from": "Pending",
+    "to": "Review",
+    "at": "2026-10-14T13:41:27.823004Z",
+    "note": "IMPLEMENTATION DELIVERED; ACCEPTANCE PENDING. Authorized play/plan save/reopen, scoped drafts, conflicts, offline retry, sign-out recovery and D10 claim protections documented. AI generation disabled; film blocked. Independent P10–P17/P13, REST authorization review, Firefox stability and physical/staging checks remain. No merge or deployment approval.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T13:41:27.823004Z-CC-006",
+    "taskId": "CC-006",
+    "title": "Integrated coaching candidate delivered — acceptance pending",
+    "from": "In progress",
+    "to": "Review",
+    "at": "2026-10-14T13:41:27.823004Z",
+    "note": "Implementation and compatible dependency repair delivered in stacked draft PRs #59 → #60. MVP NO-GO. Earlier failures retained; passing batch does not close Firefox stability. Physical-device/staging NOT MEASURED. BDN-AEO-001 queued.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T13:41:27.823004Z-CC-NEXT-02",
+    "taskId": "CC-NEXT-02",
+    "title": "Combined integration review",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T13:41:27.823004Z",
+    "note": "Candidate available for independent review; review execution not confirmed here. Require exact SHA, retained failures and scope-specific PASS/FAIL/BLOCKED. Three critical tooling findings remain; production audit zero is not security acceptance.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T13:41:27.823004Z-CC-NEXT-04",
+    "taskId": "CC-NEXT-04",
+    "title": "Browser emulator harness delivered; acceptance cases remain open",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T13:41:27.823004Z",
+    "note": "Client implementation now available. Independent harness/repeated-run acceptance remains open; do not substitute Codex’s 18/18 run. Preserve Firefox reload/touch/exit issues and physical/staging NOT MEASURED.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T13:41:27.823004Z-CC-NEXT-03",
+    "taskId": "CC-NEXT-03",
+    "title": "Founder decision packet D1–D10",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T13:41:27.823004Z",
+    "note": "Founder D1–D10 directions already recorded as decided in dashboard. Verified stale sentence in ACCOUNT_COACHING_PERSISTENCE_HANDOFF.md at c21c0c6 says D1–D9 pending. Documentation reconciliation remains open; do not ask founder to decide them again. Implementation/security/release acceptance stays separate.",
+    "evidence": "GitHub versioned handoff opening paragraph inspected Oct 14; conflicts with prior founder decision record. No GitHub comment or file edit sent by this dashboard update."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-ROM-002",
+    "taskId": "ROM-002",
+    "title": "One complete reviewable pilot package",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Episode 4 v1.3.1 frozen; Q/J sample accepted by founder. Full render not reported started; written clearance unresolved and credit ledger reconciliation pending. No publishing approval.",
+    "evidence": "Required: Playable master, reviewed transcript, source/rights ledger and exact versions. Evidence of completed outcome is not established unless stated in the source status above."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-002",
+    "taskId": "CC-002",
+    "title": "Auth acceptance evidence and remaining blockers",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "L0 quarantined queue preservation fixed in Claude commit 12e386f and independently repeated in #63. FX-03 pending logout reload still clears newly typed sign-in input; Claude-owned auth fix open. Shared-device recovery storage risk remains proposed, not founder-accepted.",
+    "evidence": "Supplied closeout: 140 PASS per engine at candidate 9b84573; 160 skipped entries excluded; release build 13 PASS. Earlier 2f8c61e also reported 140/browser. Four tests drive session states directly, not screen workflows."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-CODEX-02",
+    "taskId": "CC-CODEX-02",
+    "title": "Account-scoped Playbook persistence",
+    "from": "Review",
+    "to": "Verified complete",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Scope-specific independent emulator acceptance of ordinary play persistence documented in #63 §8.7. Not merged/deployed; overall MVP NO-GO.",
+    "evidence": "Drew2.0 read #63 report at dda4107. Final acceptance 709e0f4 / test-only candidate c858d1d: CC-P10–P17 persistence checks pass 10/10 both engines. Whole suite still fails L1/R1b; tests not rerun by Drew2.0."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-CODEX-03",
+    "taskId": "CC-CODEX-03",
+    "title": "Editable practice plans",
+    "from": "Review",
+    "to": "Verified complete",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Scope-specific plan save/edit/reopen acceptance documented in #63. Not deployed; AI disabled, film blocked, MVP NO-GO.",
+    "evidence": "Claude independent §8.7 evidence: exact plan reopen, reorder, edits, conflicts and offline acknowledgement tested. Report inspected by Drew2.0; no fresh execution here."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-NEXT-02",
+    "taskId": "CC-NEXT-02",
+    "title": "Combined integration review",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Independent candidate c858d1d test-only, never merge: 400 PASS/20 FAIL per engine, L1/R1b each 10/10. Acceptance 709e0f4 adds one Firefox H2 timeout. #62 diagnostics separate. No physical/staging acceptance.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-POD-QC-04",
+    "taskId": "POD-QC-04",
+    "title": "Voice Design commercial clearance — human escalation pending",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Voices and sample already created and accepted; obsolete 0/6 claim superseded. AI support reply did not establish formal Beta Service status. Full render remains on hold. Escalation draft supplied; sent confirmation not received.",
+    "evidence": "Roman-reported account 3,939 used / 348,559 remaining. Separate allowance ledger 2,244 used / 7,756 remaining differs by 1,695; reconciliation outstanding. Secure vault access working per Roman, no resubmission needed."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-OPS-HOLD",
+    "taskId": "OPS-HOLD",
+    "title": "Phase 3B approved move batch reported complete; exceptions held",
+    "from": "Hold",
+    "to": "Reported complete",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Cleanup Claude reports 184 moves, hash/size checks before source removal, original dates retained; Downloads 471 to 288 including one arrival. Local execution ledger not independently inspected here. Remaining held files/decisions are not complete.",
+    "evidence": "Required: exact artifact, test results and acceptance record."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-NEXT-04",
+    "taskId": "CC-NEXT-04",
+    "title": "Independent acceptance delivered — remaining regressions open",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "PR #63 §8.7 inspected. CC02/CC03 and prior R0/R1-finished/R2/R5 pass; L0 fixed. L1/R1b fail. H2 intermittent timeout, actual hidden-tab behavior and staging/devices remain open. PR #63 title/body stale relative to §8.7.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-006",
+    "taskId": "CC-006",
+    "title": "Integrated coaching candidate delivered — acceptance pending",
+    "from": "Review",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Independent #63 confirms CC02/CC03 and R0/R1-finished/R2/R5; L0 fixed on Claude branch. L1 and R1b fail 10/10; FX-03 from #62 also open. MVP NO-GO; no merge/deploy.",
+    "evidence": "GitHub checked Oct 14: #59/#60 draft, open, unmerged; heads c21c0c61c03a25860341e699cca8ee1a7036d726 / 2cf1a5ca9be33500515b3abf331ca35e3d6df920. Handoffs and dependency manifest inspected, not tests rerun here. Tested app ff9b421669c1154ab52288f9cda1c7516bfb1ed5; integrated runtime da8ebe1c90a877102e1913770690ff98a3530d3f; browser source 5d04077a1db88c8ea24ec2ee6ea3cae96d780ac2. Recorded 416/416 tests, TypeScript 0, production/emulator builds PASS with warnings, Chromium/Firefox 18/18 (16 UI + 2 SDK denial checks), no retries. Production findings 10 to 0; full graph 107 to 98 with 3 critical tooling findings unresolved."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-007",
+    "taskId": "CC-007",
+    "title": "Staging readiness and rollback packet",
+    "from": "Blocked",
+    "to": "Review",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Documentation criteria 1–5 delivered in #61. Prior L0 queue-deletion issue fixed on Claude branch; L1/R1b/FX-03 remain. Staging access, deploy authorization and device/rollback rehearsal not established.",
+    "evidence": "Required: exact candidate, reproducible evidence, retained failures and scope-specific founder acceptance."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-BDN-003",
+    "taskId": "BDN-003",
+    "title": "Podcast commercial-rights and corrected-audio clearance packet",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Q/J casting and sample accepted. AI support reply ambiguous on formal Beta Service designation; human escalation requested, sent status unconfirmed. Commercial clearance and complete episode QA remain open.",
+    "evidence": "Original listening review and correction-text approval only; binaries/commercial rights unverified."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-POD-VOICE-01",
+    "taskId": "POD-VOICE-01",
+    "title": "Q/J voices and conversation sample — accepted",
+    "from": "Approved",
+    "to": "Verified complete",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Coach Drew listened to the 34-second Q/J exchange and approved energy, pace and chemistry. Six roster voices reported created: Q, J, Oasis, Travis, Chuck, Tasha. Commercial clearance remains a separate blocker.",
+    "evidence": "Founder approval in this conversation Oct 14. Roman reports locked Q 4FO9F8d9UZfukZSmGIai and J dAu4bwGuvNsfst9T5IIT; Multilingual v2, stability .5, similarity .75, style 0, speaker boost; sample actual 276 credits."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-BDN-CAT-001",
+    "taskId": "BDN-CAT-001",
+    "title": "Media catalog v1.3.1 — native Sheet verified",
+    "from": "Verified complete",
+    "to": "Verified complete",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Native v1.3.1 master remains authoritative. Patch v3 separately reviewed live: 22 edits plus 21 new rows and one no-op; not applied. Library RECONCILED — INCOMPLETE; no publication or backup authorization.",
+    "evidence": "Native Sheet previously verified with 11 tabs, 246 unique master IDs and source preservation. This conversation: 25 userEnteredValue/note edits read back successfully: Reconciliation Evidence E154/E372, Duplicate Review F97, Podcast Conversion Queue N2:N22, Programming Calendar F3. Patch: 24 instructions = 5 applied groups, 1 no-op, 18 held. Current production ceiling at most 242 remains unproven; do not substitute unresolved-count claims from withheld changes."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-FIX-01",
+    "taskId": "CC-FIX-01",
+    "title": "L1 legacy migration — preserve originals and truthful success",
+    "from": "Not tracked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Claude #63 CC-L1 fails 10/10 both engines. Isolated repair required; independent retest follows.",
+    "evidence": "Claude #63 CC-L1 fails 10/10 both engines. Isolated repair required; independent retest follows."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-FIX-02",
+    "taskId": "CC-FIX-02",
+    "title": "R1b unfinished import — cross-account protection",
+    "from": "Not tracked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Claude #63 D10-06c fails 10/10 both engines. Finished-import R1 passes; do not conflate.",
+    "evidence": "Claude #63 D10-06c fails 10/10 both engines. Finished-import R1 passes; do not conflate."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-CC-FIX-03",
+    "taskId": "CC-FIX-03",
+    "title": "FX-03 sign-out — prevent premature interactive sign-in",
+    "from": "Not tracked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Codex #62 reproduces input loss 5/5 per engine. Test checkpoint fixes are not the application fix. FX-02 earlier delay and genuine hidden tabs remain unverified.",
+    "evidence": "Codex #62 reproduces input loss 5/5 per engine. Test checkpoint fixes are not the application fix. FX-02 earlier delay and genuine hidden tabs remain unverified."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-BDN-CAT-002",
+    "taskId": "BDN-CAT-002",
+    "title": "Patch v3 — reviewed; application approval pending",
+    "from": "Not tracked",
+    "to": "Review",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "All 23 existing-cell references matched live values, 21 destinations empty, 246 unique master IDs, no new source/exception ID collisions. Audio identity evidence is Claude-supplied, not independently repeated. Consent/rights gates preserved.",
+    "evidence": "All 23 existing-cell references matched live values, 21 destinations empty, 246 unique master IDs, no new source/exception ID collisions. Audio identity evidence is Claude-supplied, not independently repeated. Consent/rights gates preserved."
+  },
+  {
+    "id": "reconcile-2026-10-14T19:46:53.405Z-SEC-002",
+    "taskId": "SEC-002",
+    "title": "Possible ElevenLabs credential exposure — separate finding",
+    "from": "Not tracked",
+    "to": "Blocked",
+    "at": "2026-10-14T19:46:53.405Z",
+    "note": "Claude reports possible key in owner-only My Drive document read into session logs. Provider/validity unconfirmed. No credential values stored here. Separate from SEC-001 Google Cloud revocation.",
+    "evidence": "Claude reports possible key in owner-only My Drive document read into session logs. Provider/validity unconfirmed. No credential values stored here. Separate from SEC-001 Google Cloud revocation."
+  },
+  {
+    "id": "closeout-CC-FIX-01-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-FIX-01",
+    "title": "L1 legacy migration — preserve originals and truthful success",
+    "from": "Blocked",
+    "to": "Reported complete",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO."
+  },
+  {
+    "id": "closeout-CC-FIX-02-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-FIX-02",
+    "title": "R1b unfinished import — cross-account protection",
+    "from": "Blocked",
+    "to": "Reported complete",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO."
+  },
+  {
+    "id": "closeout-CC-FIX-03-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-FIX-03",
+    "title": "FX-03 sign-out — prevent premature interactive sign-in",
+    "from": "Blocked",
+    "to": "Reported complete",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO."
+  },
+  {
+    "id": "closeout-CC-FIX-04-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-FIX-04",
+    "title": "R1c — resume unfinished import after Not now",
+    "from": "Pending",
+    "to": "In progress",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Not now must postpone; original account/team can resume, other accounts remain blocked, originals unchanged, server-confirmed import without duplicates. Latest supplied report: fix not delivered. Live #64 remains 8f0d9f7; no candidate 8 yet.",
+    "evidence": "Not now must postpone; original account/team can resume, other accounts remain blocked, originals unchanged, server-confirmed import without duplicates. Latest supplied report: fix not delivered. Live #64 remains 8f0d9f7; no candidate 8 yet."
+  },
+  {
+    "id": "closeout-CC-QA-01-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-QA-01",
+    "title": "Browser stalls and harness reliability — H2 / N2 / FX-02",
+    "from": "Pending",
+    "to": "In progress",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports stale-toast helper and N1 loading checks corrected; negative privacy assertions now wait for known own-team control play. F1 local fake-server connection diagnostics and Windows test discovery corrected; intermittent cause not declared eliminated. H2/N2/FX-02 open; W1 unused stats deferred. Failed artifacts reportedly expire Oct 28.",
+    "evidence": "Claude reports stale-toast helper and N1 loading checks corrected; negative privacy assertions now wait for known own-team control play. F1 local fake-server connection diagnostics and Windows test discovery corrected; intermittent cause not declared eliminated. H2/N2/FX-02 open; W1 unused stats deferred. Failed artifacts reportedly expire Oct 28."
+  },
+  {
+    "id": "closeout-CC-UI-01-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-UI-01",
+    "title": "Dashboard visual refinement — PR67 not approved",
+    "from": "Pending",
+    "to": "In progress",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "PR67 cb3eda5 draft: 443 tests and 18 layouts reported passing. Founder rejects visuals; three screenshots show unreadable narrow seven-column calendar and weak hierarchy. Source and review docs checked; no visual approval. Authenticated workflow review pending. Keep separate from acceptance repairs.",
+    "evidence": "PR67 cb3eda5 draft: 443 tests and 18 layouts reported passing. Founder rejects visuals; three screenshots show unreadable narrow seven-column calendar and weak hierarchy. Source and review docs checked; no visual approval. Authenticated workflow review pending. Keep separate from acceptance repairs."
+  },
+  {
+    "id": "closeout-CC-DECK-01-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-DECK-01",
+    "title": "Visual pilot pitch deck — aligned 10-slide package",
+    "from": "Pending",
+    "to": "Reported complete",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Coach_Core_Visual_Pilot_Deck_Aligned.pptx delivered; full cover image visible and all ten slides checked. Produced by Digital Blue-Print AI. Concept screens labeled; no launch, revenue or enrollment claims. Founder accepted alignment. Investor financial model remains separate.",
+    "evidence": "Coach_Core_Visual_Pilot_Deck_Aligned.pptx delivered; full cover image visible and all ten slides checked. Produced by Digital Blue-Print AI. Concept screens labeled; no launch, revenue or enrollment claims. Founder accepted alignment. Investor financial model remains separate."
+  },
+  {
+    "id": "closeout-CC-006-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-006",
+    "title": "Integrated coaching candidate delivered — acceptance pending",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested."
+  },
+  {
+    "id": "closeout-CC-NEXT-02-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-NEXT-02",
+    "title": "Combined integration review",
+    "from": "Review",
+    "to": "Blocked",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested."
+  },
+  {
+    "id": "closeout-CC-NEXT-04-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-NEXT-04",
+    "title": "Independent acceptance delivered — remaining regressions open",
+    "from": "Review",
+    "to": "Blocked",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Latest Claude report: N1/H2 helper corrections ready; candidate 8 not run. Staging, physical devices and genuine background tabs untested."
+  },
+  {
+    "id": "closeout-CC-007-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-007",
+    "title": "Staging readiness and rollback packet",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "PR61 documentation delivered; package acceptance pending. L0/L1/R1b/FX-03 reported resolved. R1c and reliability investigation remain. No staging/device/rollback rehearsal performed.",
+    "evidence": "PR61 documentation delivered; package acceptance pending. L0/L1/R1b/FX-03 reported resolved. R1c and reliability investigation remain. No staging/device/rollback rehearsal performed."
+  },
+  {
+    "id": "closeout-CC-002-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-002",
+    "title": "Auth acceptance evidence and remaining blockers",
+    "from": "Blocked",
+    "to": "Review",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Auth workflow release acceptance remains separate; no production changes.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. Auth workflow release acceptance remains separate; no production changes."
+  },
+  {
+    "id": "closeout-CC-NEXT-01-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "CC-NEXT-01",
+    "title": "Independent Playbook regression review",
+    "from": "Review",
+    "to": "Review",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. H2/N2/FX-02, background tabs and physical devices remain open.",
+    "evidence": "Claude reports candidate 6 4757eaf: 430/430 each browser, ten repeats, no retries. L1/R1b/FX-03 each pass 10/10 both engines. Candidate 7 adds R1c failure. Scope-specific pass only; unmerged, MVP NO-GO. H2/N2/FX-02, background tabs and physical devices remain open."
+  },
+  {
+    "id": "closeout-SEC-001-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "SEC-001",
+    "title": "Revoke oasis-drive-bot credential",
+    "from": "Blocked",
+    "to": "Reported complete",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports exact oasis-drive-bot key revoked Oct14 16:19 ET, fresh reload showed No keys; service account remains enabled. Phase3A ledger updated. ElevenLabs key unchanged. Not independently rechecked here.",
+    "evidence": "Claude reports exact oasis-drive-bot key revoked Oct14 16:19 ET, fresh reload showed No keys; service account remains enabled. Phase3A ledger updated. ElevenLabs key unchanged. Not independently rechecked here."
+  },
+  {
+    "id": "closeout-OPS-002-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "OPS-002",
+    "title": "Discovery archive move — pending",
+    "from": "Blocked",
+    "to": "Hold",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "ZIP reportedly remains in Downloads. Custody-folder deletion confirmed intentional by founder; do not restore. Not a Coach Core blocker.",
+    "evidence": "ZIP reportedly remains in Downloads. Custody-folder deletion confirmed intentional by founder; do not restore. Not a Coach Core blocker."
+  },
+  {
+    "id": "closeout-OPS-003-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "OPS-003",
+    "title": "Evidence-backed Phase 3A closure packet",
+    "from": "Blocked",
+    "to": "Reported complete",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Claude reports Phase3A closed with discovery ZIP explicitly deferred; cloud key revoked and intentional custody deletion recorded. Cleanup stopped.",
+    "evidence": "Claude reports Phase3A closed with discovery ZIP explicitly deferred; cloud key revoked and intentional custody deletion recorded. Cleanup stopped."
+  },
+  {
+    "id": "closeout-DOT-004-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "DOT-004",
+    "title": "Pitch-deck outline and evidence/cost-assumption packet",
+    "from": "Pending",
+    "to": "Hold",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Separate pilot deck delivered in CC-DECK-01. Investor financial/cost assumptions have not been completed; do not treat pilot deck as financial diligence.",
+    "evidence": "Separate pilot deck delivered in CC-DECK-01. Investor financial/cost assumptions have not been completed; do not treat pilot deck as financial diligence."
+  },
+  {
+    "id": "closeout-ROM-002-2026-10-15T00:02:49.148574+00:00",
+    "taskId": "ROM-002",
+    "title": "One complete reviewable pilot package",
+    "from": "Blocked",
+    "to": "Blocked",
+    "at": "2026-10-15T00:02:49.148574+00:00",
+    "note": "Founder accepted Q/J dialogue sample. Roman reports human escalation sent Oct14 15:45 ET; 2244 agent credits used, 7756 remaining in agent allowance, 1695 manual Voice Design charges separately accounted. Full render not authorized by dashboard.",
+    "evidence": "Founder accepted Q/J dialogue sample. Roman reports human escalation sent Oct14 15:45 ET; 2244 agent credits used, 7756 remaining in agent allowance, 1695 manual Voice Design charges separately accounted. Full render not authorized by dashboard."
+  }
+]

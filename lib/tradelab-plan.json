@@ -1,0 +1,278 @@
+{
+  "version": 2,
+  "recordedAt": "2026-10-28T17:16:59Z",
+  "effectiveFrom": "2026-10-28",
+  "timezone": "America/New_York",
+  "source": "Coach Drew’s explicit October 28, 2026 project and protected-time decision",
+  "projectId": "A30",
+  "nextStepId": "GAP-53",
+  "chartRecordId": "X77",
+  "projectName": "TradeLab / GBPJPY Trading Development",
+  "status": "Learning and paper-practice setup; strategy validation incomplete",
+  "owner": "Coach Drew",
+  "purpose": "Build a simple, repeatable GBP/JPY learning and testing system Coach Drew can understand visually, practice consistently and evaluate using evidence.",
+  "protectedBlock": {
+    "id": "A30:weekday-study",
+    "label": "TradeLab — GBP/JPY Study & Paper Practice",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "byDay": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR"
+    ],
+    "start": "08:00",
+    "end": "12:00",
+    "hoursPerDay": 4,
+    "hoursPerWeek": 20,
+    "ends": "Until Coach Drew changes it",
+    "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"
+  },
+  "capacity": {
+    "reservedHoursPerWeek": 20,
+    "totalWeeklyCapacity": null,
+    "remainingWeeklyCapacity": null,
+    "note": "The full week reserves 20 morning hours for TradeLab and the Wednesday radio exception. Wednesday radio recording at 10 AM takes priority; its duration is not supplied, so exact TradeLab hours are not calculated. Total weekly working hours and remaining capacity are unknown. Attendance and practice are not inferred from a reservation.",
+    "tradeLabHoursPerWeek": null
+  },
+  "routine": [
+    {
+      "time": "8:00–8:30 AM",
+      "title": "Prepare",
+      "detail": "Check data, news, daily background and known levels."
+    },
+    {
+      "time": "8:30–11:30 AM",
+      "title": "Study and paper practice",
+      "detail": "Use 15-minute charts for guided decisions only when defined rules qualify. No setup is a valid outcome."
+    },
+    {
+      "time": "11:30 AM–noon",
+      "title": "Review",
+      "detail": "Record outcomes, screenshots, uncertainty and lessons. Record any open simulated position at noon; do not invent a session-end exit retrospectively."
+    }
+  ],
+  "calendar": {
+    "eventId": "iimq2qqrh87s1lq3esdd7jahm8",
+    "url": "https://www.google.com/calendar/event?eid=aWltcTJxcXJoODdzMWxxM2VzZGQ3amFobThfMjAyNjEwMjhUMTIwMDAwWiBiaWdkcmVhbXNzcG9ydHNhZHNAbQ",
+    "calendarId": "bigdreamssportsads@gmail.com",
+    "status": "Saved and read back",
+    "busy": true,
+    "visibility": "private",
+    "recurrence": [
+      "RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"
+    ],
+    "timezone": "America/New_York",
+    "start": "2026-10-28T08:00:00-04:00",
+    "end": "2026-10-28T12:00:00-04:00",
+    "externalInvitees": 0,
+    "dstCheck": "October 30: 08:00–12:00 -04:00; November 2: 08:00–12:00 -05:00; both returned by Calendar.",
+    "checkedAt": "2026-10-28T17:16:59Z",
+    "conflictWindow": {
+      "start": "2026-10-28",
+      "endExclusive": "2027-01-01"
+    },
+    "calendarsChecked": [
+      "Primary: bigdreamssportsads@gmail.com",
+      "Family",
+      "Spring Defense 2024 101"
+    ],
+    "confirmedMorningConflicts": [],
+    "conflictCheck": "No morning overlap found in the checked calendars/window. Calendar records do not establish whether unlisted commitments are still active. This is a dated check, not continuous conflict monitoring.",
+    "scheduleDecisionNote": "Existing recurring Busy block description updated with Monday cancellation and Wednesday radio exception; start/end, recurrence, privacy and invitees preserved. No separate radio event created; duration remains unspecified.",
+    "scheduleDecisionReadBackAt": "2026-10-28T23:55:37.492762Z"
+  },
+  "potentialConflicts": [],
+  "scope": {
+    "pair": "GBP/JPY only",
+    "accountingCurrency": "USD permitted for account accounting and conversion",
+    "mode": "Simulation only",
+    "incomeStatus": "No dependable trading income established",
+    "aspiration": "$500/week is a longer-term aspiration only. No profitable strategy, income forecast, daily trading quota or reason to increase risk has been established.",
+    "restrictions": "No real-money orders, broker connections, purchases, prop-firm enrollments or autonomous live-trading agent are authorized. Study blocks are not entry signals or a requirement to trade."
+  },
+  "currentState": [
+    "TradeLab is an existing, separate simulated learning app with fictional replay and a historical-data import path; permitted intraday bid/ask data is still needed for accurate historical market replay.",
+    "Mansa reports ICE GBP/JPY, 15-minute candles, New York display time, four manually drawn levels and a daily 50-period SMA. Coach says screenshots confirm the visible elements; exact source candles and indicator settings have not been independently audited in this task.",
+    "The ICE daily session boundary is unresolved. No automated live-trading agent or proven profitable strategy is operating."
+  ],
+  "methods": [
+    {
+      "name": "Sneaky Pivot entry-method candidate",
+      "detail": "Prior-day high/low plus selected earlier swing high/low. Study location → lead candle → sneaky confirmation → breakout trigger → structural stop → target.",
+      "unresolved": [
+        "Exact candle criteria",
+        "Level proximity",
+        "Stop buffer",
+        "Signal expiry",
+        "Swing selection",
+        "Session-end exit rules"
+      ]
+    },
+    {
+      "name": "Daily SMA / risk / process education",
+      "detail": "Use daily charts for background and 15-minute charts for practice. Keep this education separate from validating the entry-method candidate.",
+      "unresolved": []
+    }
+  ],
+  "risk": {
+    "virtualAccountUsd": 100,
+    "proposedPlannedLossUsd": 1,
+    "plannedLossNote": "The proposed $1 planned-loss ceiling per trade is a practice baseline, not a guaranteed maximum actual loss.",
+    "sessionCutoff": "−3R is proposed, not a confirmed implemented TradeLab safeguard.",
+    "cutoffUnresolved": [
+      "Dollar reference for 1R",
+      "Costs and open-loss treatment",
+      "Reset time"
+    ],
+    "implementation": "No trading-engine or safeguard implementation is claimed by this project update."
+  },
+  "owners": [
+    {
+      "name": "Coach Drew",
+      "role": "Accountable owner and learner"
+    },
+    {
+      "name": "Mansa Musa",
+      "role": "Chart preparation and evidence collection, subject to confirmed access; no active run or new dispatch confirmed"
+    },
+    {
+      "name": "Codex / ChatGPT",
+      "role": "Source review, math checks and separately authorized TradeLab development"
+    },
+    {
+      "name": "NotebookLM",
+      "role": "Short visual lessons from supplied evidence; access and execution not established here"
+    }
+  ],
+  "milestone": "Verified first-session evidence package and one guided lesson",
+  "nextDeliverable": {
+    "date": "2026-10-28",
+    "window": "10:30 AM–noon America/New_York",
+    "historicalLevel": "210.460 prior-day high — dated context only, not a current level",
+    "status": "Waiting for actual screenshots and exact candle table",
+    "action": "Obtain Mansa’s actual screenshots and exact candle table, verify lead/confirmation/trigger candidates and classify the case as reversal, a separate breakout variation, or “Unclear—rules incomplete.” Then prepare one beginner visual lesson and one buy/sell/sit-out exercise with future candles hidden.",
+    "acceptance": [
+      "Dated source screenshots with instrument/feed, timeframe and display timezone visible",
+      "Exact candle times and OHLC values, with completed versus forming candles distinguished",
+      "Prior-day/swing-level source candles and ICE session boundary recorded or explicitly unresolved",
+      "Candidate roles tied to defined strategy rules; ambiguous setups are not scored as proven successes",
+      "One visual lesson and one exercise with future candles hidden; missing rules and costs remain visible"
+    ],
+    "retrieval": "Current project files, accessible Library search and personal-context retrieval did not provide the actual screenshots/table. A prior assistant mention is not source-candle evidence. No request has been sent to Mansa."
+  },
+  "blockers": [
+    "Incomplete entry rules",
+    "Unresolved ICE daily boundary",
+    "Permitted intraday bid/ask replay data",
+    "Actual October 28 screenshots and exact candle table not yet available"
+  ],
+  "successMeasures": [
+    "Attendance",
+    "Documented decisions",
+    "Rule adherence",
+    "Net R after documented costs",
+    "Drawdown",
+    "Losing streaks",
+    "Valid sit-outs",
+    "Data uncertainty"
+  ],
+  "learningLoop": "Observe → document → review → identify the cause → propose one change → test separately → preserve results.",
+  "recordKeeping": "Maintain dated decisions, strategy versions, unresolved questions and lessons. Proposed changes must be tested separately; no automatic system improvement is claimed.",
+  "sources": [
+    {
+      "label": "TradeLab learning app",
+      "url": "https://coach-drew-trade-lab.drewlayton.chatgpt.site"
+    },
+    {
+      "label": "TradingView chart (signed-in access may be required)",
+      "url": "https://www.tradingview.com/chart/CWLB4mdt/"
+    },
+    {
+      "label": "Sneaky Pivot source — supplied, not re-audited here",
+      "url": "https://www.youtube.com/watch?v=zspMXJVbfAY"
+    },
+    {
+      "label": "Trend / range / risk source — supplied, not re-audited here",
+      "url": "https://www.youtube.com/watch?v=XBOGd67BJks"
+    },
+    {
+      "label": "Ten lessons on testing, risk and process — supplied, not re-audited here",
+      "url": "https://www.youtube.com/watch?v=t2LNKD53y5A"
+    }
+  ],
+  "decisions": [
+    {
+      "date": "2026-10-28",
+      "owner": "Coach Drew",
+      "decision": "Resume A30 as GBP/JPY-only simulated development; protect weekday 8 AM–noon indefinitely; preserve existing owners and commitments. No income or automatic-trading claim."
+    },
+    {
+      "date": "2026-10-28",
+      "owner": "Coach Drew",
+      "recordedAt": "2026-10-28T23:55:37.492762Z",
+      "decision": "Resolve both named schedule conflicts: Monday Man to Man is not happening; Wednesday 10 AM radio recording continues as the standing exception within weekday 8 AM–noon protection. TradeLab fits around radio. Remove both from the unresolved decision list; preserve earlier history. Radio duration is not supplied."
+    }
+  ],
+  "strategyVersions": [
+    {
+      "id": "Sneaky Pivot candidate — rules incomplete",
+      "status": "Unvalidated; no exact completed strategy version established"
+    },
+    {
+      "id": "Daily SMA / risk / process education",
+      "status": "Separate educational track; not an entry strategy"
+    }
+  ],
+  "lessons": [],
+  "auditPlanning": "Respect the protected weekday morning window when suggesting Coach actions. Automated 8 AM audits remain on their existing schedule; receipt does not require interrupting study. Do not restart parked trading approaches or duplicate A30/GAP-53/X77. October 28 schedule resolution: do not re-open Monday Man to Man or Wednesday radio as pending conflicts. Monday is clear; Wednesday 10 AM radio is the approved standing exception. Do not claim 20 hours of TradeLab practice; radio uses part of the protected morning.",
+  "scheduleUpdatedAt": "2026-10-28T23:55:37.492762Z",
+  "scheduleExceptions": [
+    {
+      "id": "A30:radio",
+      "label": "Radio recording",
+      "day": "Wednesday",
+      "time": "10:00 AM",
+      "start": "10:00",
+      "end": null,
+      "durationMinutes": null,
+      "effectiveFrom": "2026-10-28",
+      "timezone": "America/New_York",
+      "status": "Confirmed by Coach Drew; standing exception",
+      "decision": "Radio takes priority within the protected morning. TradeLab fits around the recording; resume before noon if time remains."
+    }
+  ],
+  "resolvedConflicts": [
+    {
+      "id": "A30:man-to-man",
+      "label": "Man to Man",
+      "day": "Monday",
+      "time": "9:00 AM",
+      "status": "Resolved by Coach Drew",
+      "evidence": "Coach Drew’s explicit October 28, 2026 instruction in this conversation.",
+      "decision": "Coach confirms Man to Man is not happening. Monday 8 AM–noon remains reserved for TradeLab. No further decision needed.",
+      "priorEvidence": "Named by Coach; no matching current event found in the checked calendars.",
+      "priorDecision": "Coach to confirm whether it is still active and decide which commitment should change. Neither was moved.",
+      "resolvedAt": "2026-10-28T23:55:37.492762Z"
+    },
+    {
+      "id": "A30:radio",
+      "label": "Radio recording",
+      "day": "Wednesday",
+      "time": "10:00 AM",
+      "status": "Resolved by Coach Drew",
+      "evidence": "Coach Drew’s explicit October 28, 2026 instruction in this conversation.",
+      "decision": "Coach confirms Wednesday radio recording at 10 AM Eastern remains active and is the standing exception. TradeLab fits around radio. Recording end time is not supplied; no further overlap approval needed.",
+      "priorEvidence": "Named by Coach; no matching current event found in the checked calendars.",
+      "priorDecision": "Coach to confirm whether it is still active and decide which commitment should change. Neither was moved.",
+      "resolvedAt": "2026-10-28T23:55:37.492762Z"
+    }
+  ]
+}
