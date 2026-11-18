@@ -1,0 +1,26 @@
+import {applyDeadlineClear} from '@/lib/deadline-cleanup';
+import {claimGuardSQL} from '@/lib/task-claims';
+import { env } from 'cloudflare:workers';
+import { z } from 'zod';
+import seed from '@/lib/seed.json';
+import reconciliationHistory from '@/lib/reconciliation-history.json';
+import {reconcileTask} from '@/lib/reconcile';
+export const dynamic='force-dynamic';
+const states=['Pending','In progress','Blocked','Review','Approved','Verified complete','Reported complete','Hold'] as const;
+const patchSchema=z.object({claim:z.object({runId:z.string().min(8).max(120),token:z.string().uuid(),generation:z.number().int().positive()}).strict(),id:z.string().max(50),status:z.enum(states),notes:z.string().max(24000),evidence:z.string().max(24000),deadline:z.union([z.string().datetime({offset:true}),z.literal('')]),deadlineConfirmed:z.boolean(),accepted:z.boolean(),revision:z.number().int().min(0)}).strict();
+const json=(v:unknown,status=200)=>Response.json(v,{status,headers:{'Cache-Control':'private, no-store','Vary':'Cookie'}});
+function identity(r:Request){return r.headers.get('oai-authenticated-user-id');}
+async function read(uid:string){if(!env.DB)throw new Error('Storage unavailable');return env.DB.prepare('SELECT revision,payload,updated_at FROM dashboards WHERE user_id=?').bind(uid).first<{revision:number,payload:string,updated_at:string}>();}
+export async function GET(r:Request){const uid=identity(r);if(!uid)return json({error:'Sign in to view your dashboard.'},401);try{const row=await read(uid);const data=row?JSON.parse(row.payload):{overrides:{},history:[]};const feed=await env.DB!.prepare('SELECT payload FROM dashboards WHERE user_id=?').bind('system:coach-core-github-status:v1').first<{payload:string}>();const updates=feed?JSON.parse(feed.payload).snapshot?.taskUpdates??[]:[];const evidenceTasks=new Map(updates.map((t:Record<string,unknown>)=>[t.id,{...t,source:'GitHub evidence sync'}]));const projected=seed.map(t=>applyDeadlineClear(reconcileTask(reconcileTask(t,evidenceTasks.get(t.id) as Partial<typeof t>|undefined),data.overrides[t.id]),data.deadlineClears?.[t.id]));const syncHistory=updates.filter((u:{id:string;updated:string})=>{const t=seed.find(t=>t.id===u.id);return t&&Date.parse(u.updated)>Date.parse(t.updated)}).map((u:{id:string;updated:string;status:string;notes:string;evidence:string})=>({id:'sync-'+u.id+'-'+u.updated,taskId:u.id,title:seed.find(t=>t.id===u.id)!.title,from:seed.find(t=>t.id===u.id)!.status,to:u.status,at:u.updated,note:u.notes,evidence:u.evidence}));return json({tasks:projected,history:[...data.history,...reconciliationHistory,...syncHistory].sort((a,b)=>b.at.localeCompare(a.at)).slice(0,150),revision:row?.revision??0,savedAt:row?.updated_at??null,checkedAt:new Date().toISOString()});}catch{return json({error:'Dashboard storage could not be loaded. No records were changed.'},503);}}
+export async function POST(r:Request){const uid=identity(r);if(!uid)return json({error:'Sign in required.'},401);if(r.headers.get('origin')!==new URL(r.url).origin)return json({error:'Origin not allowed.'},403);try{
+ if((r.headers.get('content-type')??'').split(';')[0]!=='application/json')return json({error:'JSON required'},415);
+ const raw=await r.text();if(raw.length>60000)return json({error:'Update too large'},413);const p=patchSchema.safeParse(JSON.parse(raw));if(!p.success)return json({error:'Check all required fields and the deadline.'},400);const body=p.data;const item=seed.find(t=>t.id===body.id);if(!item)return json({error:'Unknown task'},404);
+ if(['Approved','Verified complete'].includes(body.status)&&(!body.accepted||body.evidence.trim().length<20))return json({error:'Acceptance and specific completion evidence are required.'},400);
+ const row=await read(uid);if((row?.revision??0)!==body.revision)return json({error:'A newer update exists. Close this task, refresh, and review before saving.'},409);
+ const data=row?JSON.parse(row.payload):{overrides:{},history:[]};const now=new Date().toISOString();const before=reconcileTask(item,data.overrides[body.id]).status;
+ data.overrides[body.id]={status:body.status,notes:body.notes,evidence:body.evidence,deadline:body.deadline,deadlineConfirmed:body.deadlineConfirmed,updated:now,source:'Owner update in private dashboard',accepted:body.accepted};
+ data.history=[{id:crypto.randomUUID(),taskId:body.id,title:item.title,from:before,to:body.status,at:now,note:body.notes,evidence:body.evidence},...data.history];
+ const db=env.DB!;const guard=[uid,body.id,body.claim.runId,body.claim.token,body.claim.generation,Date.now()];const result=row?await db.prepare('UPDATE dashboards SET revision=revision+1,payload=?,updated_at=? WHERE user_id=? AND revision=? AND '+claimGuardSQL).bind(JSON.stringify(data),now,uid,body.revision,...guard).run():await db.prepare('INSERT OR IGNORE INTO dashboards(user_id,revision,payload,updated_at) SELECT ?,1,?,? WHERE '+claimGuardSQL).bind(uid,JSON.stringify(data),now,...guard).run();
+ if(!result.meta.changes)return json({error:'Valid exclusive claim and current revision required. Refresh before retrying.'},409);
+ return json({saved:true,revision:body.revision+1,updatedAt:now});
+ }catch{return json({error:'Update could not be confirmed. Refresh to check the record before retrying.'},503);}}
