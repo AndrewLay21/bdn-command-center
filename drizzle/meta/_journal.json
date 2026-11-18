@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791904525900,
+      "tag": "0000_simple_tenebrous",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793333361697,
+      "tag": "0001_eager_star_brand",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793337224965,
+      "tag": "0002_equal_spencer_smythe",
+      "breakpoints": true
+    }
+  ]
+}

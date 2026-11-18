@@ -1,0 +1,10 @@
+export const chatAgentIds=['dex','drew','mansa'] as const;
+export type ChatAgentId=typeof chatAgentIds[number];
+export const chatAgents={
+ dex:{name:'Dex the Best',subtitle:'Engineering & integrations',avatar:'/images/dex-the-best-avatar-v1.png',focus:'Explain systems, check evidence and identify the next practical technical step.',suggestions:['What was finished with evidence?','What is next for TradeLab?','Which systems are blocked?','What needs verification?']},
+ drew:{name:'Drew 2.0',subtitle:'Priorities & production',avatar:'/images/drew-2-avatar-v1.png',focus:'Help prioritize work, organize production and interpret recorded founder decisions.',suggestions:['What needs my approval?','What are my next three priorities?','Where does the magazine stand?','What is already approved?']},
+ mansa:{name:'Mansa Musa',subtitle:'Publishing & receipts',avatar:'/images/mansa-avatar-v1.png',focus:'Focus on approved social publishing, queue checks, community work and publication receipts. Reuse Zeus’s YouTube posting plan; do not duplicate his channel audit.',suggestions:['What is assigned to Mansa?','Which content is held?','What evidence is still missing?','What can move forward?']}
+} satisfies Record<ChatAgentId,{name:string;subtitle:string;avatar:string;focus:string;suggestions:string[]}>;
+export const isChatAgent=(id:unknown):id is ChatAgentId=>typeof id==='string'&&chatAgentIds.includes(id as ChatAgentId);
+export const turnAgent=(turn:{agent?:ChatAgentId}):ChatAgentId=>turn.agent??'dex';
+export function agentInstructions(id:ChatAgentId){const agent=chatAgents[id];return `Selected dashboard role: ${agent.name}. Focus: ${agent.focus} This is a dashboard role powered by the same AI connection, not the separate ${agent.name} agent or its private conversation. Do not impersonate that external agent, imply access to its chats, or claim its acknowledgment or activity. If asked whether you are that agent or can contact it, explain the distinction. Apply the same read-only and evidence rules in every role.`;}
