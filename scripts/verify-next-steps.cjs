@@ -1,0 +1,40 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),ts=require('typescript');
+const cache=new Map();
+function load(filename){
+ if(cache.has(filename))return cache.get(filename);
+ const exports={};cache.set(filename,exports);
+ vm.runInNewContext(ts.transpileModule(fs.readFileSync(filename,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,{exports,Date,Map,Set,Intl,require(id){
+  if(id.endsWith('.css'))return {};
+  if(id.startsWith('@/'))return load(id.slice(2)+'.ts');
+  if(id.startsWith('.'))return load(path.join(path.dirname(filename),id)+'.ts');
+  return require(id);
+ }},{filename});return exports;
+}
+const {filterSteps,stepOwner,stepStatus}=load('lib/next-steps-view.ts');
+const base={type:'step',lane:'Operations',title:'Task',priority:'First',status:'Needs review',owner:'Not confirmed',nextStep:'Read the latest receipt.',doneMeans:'A reviewed receipt is saved.',proof:'',summary:'',note:'',related:[],links:[],original:{preserved:true},sourceDate:'2026-10-27'};
+const items=[{...base,id:'GAP-10',owner:'Codex',title:'Website review',priority:'Next'}, {...base,id:'GAP-06',owner:'Dex the Best',title:'Key evidence',status:'Done',proof:'Owner screenshot reviewed.',updatedAt:'2026-10-28T16:20:00Z'}, {...base,id:'GAP-03',title:'An input needed',status:'Waiting'}, {...base,id:'GAP-04',owner:'Kev',title:'Client work',lane:'Clients',priority:'Only if resumed',status:'Parked'}, {...base,id:'A30',type:'work',title:'Not a next step'}];
+const initial=JSON.stringify(items);
+const all={query:'',lane:'All areas',priority:'All priorities',progress:'Any status',owner:'All owners',sort:'Priority first'};
+const ids=(changes={})=>Array.from(filterSteps(items,{...all,...changes}),item=>item.id);
+assert.deepEqual(ids(),['GAP-03','GAP-06','GAP-10','GAP-04']);
+assert.deepEqual(ids({owner:'agent:dex'}),['GAP-06','GAP-10'],'Dex combines only his authorized aliases');
+assert.deepEqual(ids({owner:'unconfirmed'}),['GAP-03']);
+assert.deepEqual(ids({query:'  dEX THE best  '}),['GAP-06','GAP-10'],'Search accepts the display alias');
+assert.deepEqual(ids({progress:'Done'}),['GAP-06'],'Home completion shortcut remains reachable');
+assert.deepEqual(ids({progress:'Needs review'}),['GAP-10']);
+assert.deepEqual(ids({lane:'Clients',owner:'agent:dex'}),[],'All filters intersect');
+assert.deepEqual(ids({priority:'First',progress:'Waiting'}),['GAP-03']);
+assert.equal(ids({sort:'Recently updated'})[0],'GAP-06');
+assert.deepEqual(ids({sort:'Name A–Z'}),['GAP-03','GAP-04','GAP-06','GAP-10']);
+assert.equal(stepOwner('Codex').label,'Dex the Best');
+assert.equal(stepOwner('Roman/Muse').label,'Roman/Muse');
+assert.equal(stepStatus('Needs review').hint,'Check the latest evidence');
+assert.notEqual(stepStatus('Needs review').action,'Approve');
+assert.equal(stepStatus('Waiting').tone,'waiting');
+assert.equal(JSON.stringify(items),initial,'Viewing, filtering and sorting must not rewrite any source field');
+const React=require('react'),{renderToStaticMarkup}=require('react-dom/server');
+const View=load('app/next-steps.tsx').default;
+const html=renderToStaticMarkup(React.createElement(View,{items,...all,setQuery(){},setLane(){},setPriority(){},setProgress(){},open(){}}));
+assert.match(html,/Open record: Key evidence/);assert.match(html,/Owner to confirm/);assert.match(html,/Owner screenshot reviewed/);
+assert.match(html,/4 saved next steps/);assert.doesNotMatch(html,/Not a next step/);
+console.log('PASS: intersecting filters, aliases, completed shortcut, sorting, record immutability, status meanings and rendered cards.');

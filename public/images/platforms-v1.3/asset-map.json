@@ -1,0 +1,90 @@
+[
+  {
+    "id": "openai-platform",
+    "agent": "Atlas Prime",
+    "symbol": "architectural gateway",
+    "path": "assets/icons/openai-platform.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "agent": "Oasis",
+    "symbol": "sunrise speech bubble",
+    "path": "assets/icons/chatgpt.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "perplexity",
+    "agent": "Radar",
+    "symbol": "radar sweep",
+    "path": "assets/icons/perplexity.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "claude-extension",
+    "agent": "Lens",
+    "symbol": "browser magnifier",
+    "path": "assets/icons/claude-extension.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "claude-chat",
+    "agent": "Sage",
+    "symbol": "spark speech bubble",
+    "path": "assets/icons/claude-chat.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "gemini",
+    "agent": "Nova",
+    "symbol": "interlocking star",
+    "path": "assets/icons/gemini.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "chatgpt-work",
+    "agent": "Vanguard",
+    "symbol": "shield speech bubble",
+    "path": "assets/icons/chatgpt-work.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "codex",
+    "agent": "Dex",
+    "symbol": "code brackets and diamond",
+    "path": "assets/icons/codex.png",
+    "status": "draft custom emblem; not official vendor logo",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  }
+]
