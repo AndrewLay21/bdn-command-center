@@ -1,0 +1,470 @@
+[
+  {
+    "id": "SEC-002",
+    "order": 1,
+    "lane": "Founder action",
+    "dependsOn": [],
+    "gate": "Existing project-specific safety and approval gates",
+    "nextAction": "Coordinate provider/dependency identification and any replacement through secure vault; revoke only with explicit authorization and migration plan.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-AEO-001",
+    "order": 2,
+    "lane": "Pilot covers a bounded checkpoint",
+    "dependsOn": [],
+    "gate": "Existing PR38 and public-reference policy; preserve current source, feature flags and editorial/rights gates.",
+    "nextAction": "Prioritize sponsor identity/approved-offer reconciliation; retain draft repair and desktop acceptance evidence. Independent review, real media/device checks and supported dependency migrations remain open.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-006",
+    "order": 3,
+    "lane": "Pilot covers a bounded checkpoint",
+    "dependsOn": [],
+    "gate": "Codex release packet; file ownership and capacity",
+    "nextAction": "When available, independently review PR39 source 867348bc5304cda5f67cd62e68f3927f57d06077 and validation evidence, especially unchanged privacy assertions, malformed-link recovery and residual dependency exposure.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-005",
+    "order": 4,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Existing importer and accessible artwork",
+    "nextAction": "Validate received packages privately against existing Media Engine schema with approved article copy and accessible assets.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-002",
+    "order": 5,
+    "lane": "Pilot covers a bounded checkpoint",
+    "dependsOn": [
+      "BDN-005"
+    ],
+    "gate": "BDN-005; real episode ID; verified private review environment",
+    "nextAction": "Complete physical-device/mobile and actual provider playback checks; record header readability repair and sponsor offer/brand reconciliation before release review.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-006",
+    "order": 6,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Current website content and current source verification",
+    "nextAction": "Review homepage freshness labels and Article 002 evidence; separate publishable coverage from stale/unverified claims.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-007",
+    "order": 7,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Current portfolio; release status and human owner availability",
+    "nextAction": "Review the secondary backlog and recommend the next three actions only after current blockers/capacity are assessed.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-FIX-04",
+    "order": 8,
+    "lane": "Existing Claude work \u2014 do not duplicate",
+    "dependsOn": [],
+    "gate": "Exact candidate and preserved independent acceptance gates",
+    "nextAction": "Import repair independently verified within scope; prepare bounded integration plan before any merge. R3/R4/missing-team policy and release gates remain separate.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-QA-01",
+    "order": 9,
+    "lane": "Existing Claude work \u2014 do not duplicate",
+    "dependsOn": [],
+    "gate": "Exact candidate and preserved independent acceptance gates",
+    "nextAction": "D10 readiness checkpoint verified. Claude prepares B11 job split for review; retain N3/FX-02/H2/A09 probes and unresolved gates. A4b manual re-save accepted for disclosed private beta within tested scope.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "QF-002",
+    "order": 10,
+    "lane": "Founder action",
+    "dependsOn": [],
+    "gate": "Existing relationship/contact; actual correspondence; authority for outreach",
+    "nextAction": "Confirm the facility reservation and actual requirements with the existing PAL/facility contact; name the event operations lead.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "QF-001",
+    "order": 11,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Queens staging identity and approved scope; Codex coordination",
+    "nextAction": "Verify Queens-specific auth/email permissions and readiness separately from Firebase Coach Core work.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-005",
+    "order": 12,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "QF-002"
+    ],
+    "gate": "QF-002; confirmed facility requirements; named human event lead",
+    "nextAction": "Assemble the event-readiness checklist, school arrival waves, interview/photo stations, run of show and approval needs.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "ROM-004",
+    "order": 13,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Confirmed event copy; Coach Drew title/brand decisions",
+    "nextAction": "Prepare a media-day creative pack using confirmed event details and a working-title label until brand approval.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "QF-003",
+    "order": 14,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "QF-001"
+    ],
+    "gate": "Original staging access/owner; QF-001; preserve project separation",
+    "nextAction": "Inventory the isolated staging branch and run the approved synthetic registration, staff-login and mobile acceptance plan.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "ROM-002",
+    "order": 15,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "ROM-001"
+    ],
+    "gate": "ROM-001; approved show identity and usable rights evidence",
+    "nextAction": "Await written Voice Design determination; full episode render stays on hold.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "ROM-003",
+    "order": 16,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "ROM-002"
+    ],
+    "gate": "ROM-002; factual corrections and rights clearance",
+    "nextAction": "Prepare three strong captioned clips, a teaser and thumbnail from the cleared pilot; identify timestamps and platforms.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-005",
+    "order": 17,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Standalone PR #1 then #2; Claude security contract",
+    "nextAction": "Finish reliability acceptance via CC-CODEX-01 and account-isolated persistence via CC-CODEX-02.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-002",
+    "order": 18,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "PR #49; integration candidate; approved staging for live tests",
+    "nextAction": "Retain auth/security acceptance and investigate remaining delayed UI behavior.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "OPS-001",
+    "order": 19,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Exact source workbook/destination confirmed; preserve original",
+    "nextAction": "Verify the exact workbook target, then complete native Google Sheets conversion with row/formula/link reconciliation.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "OPS-002",
+    "order": 20,
+    "lane": "Hold",
+    "dependsOn": [],
+    "gate": "Original scope and move permission; source/destination identities",
+    "nextAction": "Leave discovery ZIP untouched; founder deferred cleanup.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-001",
+    "order": 21,
+    "lane": "Consolidation review",
+    "dependsOn": [
+      "ROM-002"
+    ],
+    "gate": "ROM-002; accessible sources and rights evidence",
+    "nextAction": "See POD-QC-01 for audio/source work and POD-QC-02 for approved articles; do not duplicate completed drafting.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-002",
+    "order": 22,
+    "lane": "Consolidation review",
+    "dependsOn": [
+      "DOT-001"
+    ],
+    "gate": "DOT-001; reviewed transcript; exact episode reference",
+    "nextAction": "See POD-QC-01 for audio/source work and POD-QC-02 for approved articles; do not duplicate completed drafting.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-003",
+    "order": 23,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "ROM-003",
+      "DOT-002"
+    ],
+    "gate": "ROM-003; DOT-002; verified accounts, publisher and release decisions",
+    "nextAction": "Prepare the approved pilot/article/clip distribution schedule and reusable episode checklist.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "FD-001",
+    "order": 24,
+    "lane": "Founder action",
+    "dependsOn": [
+      "ROM-002",
+      "DOT-001"
+    ],
+    "gate": "ROM-002/003; DOT-001/002; BDN acceptance",
+    "nextAction": "Review remaining audio, media release and promo gates. The three blog article copies are already approved.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "GOV-001",
+    "order": 25,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Exact v1.0 file/link",
+    "nextAction": "Locate the original Executive Project Command Center v1.0 and reconcile all remaining tasks and owners.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-010",
+    "order": 26,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Owner coordination and evidence",
+    "nextAction": "Review implementation sequence, processing spike and estimates; return founder-reviewed film roadmap.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-003",
+    "order": 27,
+    "lane": "External worker / verification",
+    "dependsOn": [
+      "CC-010"
+    ],
+    "gate": "CC-010; agreed video limits and tenancy contract",
+    "nextAction": "Implement reviewed reservation-bound video authorization and negative cases after film decisions.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-004",
+    "order": 28,
+    "lane": "External worker / verification",
+    "dependsOn": [
+      "CC-010"
+    ],
+    "gate": "CC-010; PR #49; founder-controlled new key/configuration",
+    "nextAction": "Reconcile OpenAI-only ADR and implement agreed film gateway with protected access and approved configuration.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "DOT-004",
+    "order": 29,
+    "lane": "Hold",
+    "dependsOn": [
+      "CC-010"
+    ],
+    "gate": "CC-010 audit; current investor research; founder financial inputs",
+    "nextAction": "Defer investor financial model while Coach Core repair and visual acceptance take priority.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "FD-002",
+    "order": 30,
+    "lane": "Founder action",
+    "dependsOn": [
+      "CC-010"
+    ],
+    "gate": "CC-010; tested integrated candidate; security gates and staged access",
+    "nextAction": "Review the safe core demo, film audit and remaining blockers; decide next milestones without calling an incomplete demo the full MVP.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-CODEX-01",
+    "order": 31,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Owner coordination and evidence",
+    "nextAction": "Finish retained browser-exit investigation, full 7-test Firefox suite \u00d710 and physical-tablet/native-interaction checks.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-NEXT-01",
+    "order": 32,
+    "lane": "External worker / verification",
+    "dependsOn": [
+      "CC-CODEX-01"
+    ],
+    "gate": "Codex correction; do not duplicate CC-CODEX-01 implementation",
+    "nextAction": "Run revised independent checks on candidate 8 after R1c delivery.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-NEXT-02",
+    "order": 33,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Relevant branches and agreed ownership",
+    "nextAction": "After completed R1c handoff, Claude builds exact candidate 8 and repeats full suite ten times per browser, no retries; score R1c with R1b.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-NEXT-03",
+    "order": 34,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Owner coordination and evidence",
+    "nextAction": "Reconcile all approved D1\u2013D10 directions into the client handoff and shared packets; remove stale D1\u2013D9-pending wording without changing release gates.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "POD-QC-04",
+    "order": 35,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "Written Voice Design clearance from ElevenLabs support; then bounded audition generation",
+    "nextAction": "Roman: send approved escalation in existing support thread; retain human reply and reconcile credit allowance.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "POD-QC-06",
+    "order": 36,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "POD-QC-01"
+    ],
+    "gate": "POD-QC-01 and rights constraints",
+    "nextAction": "Present timestamped correction/replacement/notice options for existing episodes under rights constraints.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-NEXT-04",
+    "order": 37,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "PR #54; CC02/03; staging readiness and account controls (D5 budget discretion approved)",
+    "nextAction": "After completed R1c handoff, Claude builds exact candidate 8 and repeats full suite ten times per browser, no retries; score R1c with R1b.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-001",
+    "order": 38,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "#39/#43/#49/#52; exact issue mapping and ownership",
+    "nextAction": "Reconcile remaining security/film gates and produce current remediation checklist.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-006",
+    "order": 39,
+    "lane": "External worker / verification",
+    "dependsOn": [],
+    "gate": "#55, CC02/03, #40 repair; resolve #42/#45 documentation union",
+    "nextAction": "After completed R1c handoff, Claude builds exact candidate 8 and repeats full suite ten times per browser, no retries; score R1c with R1b.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-007",
+    "order": 40,
+    "lane": "External worker / verification",
+    "dependsOn": [
+      "CC-006"
+    ],
+    "gate": "CC-006; dependency repair; account controls; exact cost plan under approved D5 budget discretion",
+    "nextAction": "Retain staging/rollback package; reconcile against accepted candidate, then obtain separate staging access/authorization.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-008",
+    "order": 41,
+    "lane": "Founder action",
+    "dependsOn": [
+      "CC-007"
+    ],
+    "gate": "CC-007; desktop/tablet and all security gates",
+    "nextAction": "Test core workflows and mandatory film-to-play-to-practice journey.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-009",
+    "order": 42,
+    "lane": "Founder action",
+    "dependsOn": [
+      "CC-008"
+    ],
+    "gate": "CC-008; exact candidate and evidence; keep NO-GO if incomplete",
+    "nextAction": "Assess demonstrated core functionality and remaining blockers.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-003",
+    "order": 43,
+    "lane": "Source/access needed",
+    "dependsOn": [
+      "POD-QC-01"
+    ],
+    "gate": "POD-QC-01/04/06; exact assets and license evidence",
+    "nextAction": "After clearance and voice selection, obtain separate episode-production authorization before corrected masters; assemble listening-QA and rights evidence.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-004",
+    "order": 44,
+    "lane": "Founder action",
+    "dependsOn": [
+      "BDN-001",
+      "BDN-003"
+    ],
+    "gate": "BDN-001/002; BDN-003 if pilot included",
+    "nextAction": "Review BDN-specific candidate and acceptance evidence for separate GO/NO-GO.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "GOV-002",
+    "order": 45,
+    "lane": "Founder action",
+    "dependsOn": [
+      "GOV-001"
+    ],
+    "gate": "GOV-001 and supplied closeout",
+    "nextAction": "Confirm or revise proposed owners/deadlines after original inventory reconciliation.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "BDN-CAT-002",
+    "order": 46,
+    "lane": "Founder action",
+    "dependsOn": [],
+    "gate": "Existing project-specific safety and approval gates",
+    "nextAction": "Obtain founder approval to apply 22 cell edits and 21 rows; fresh before-value checks and readback verification required.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  },
+  {
+    "id": "CC-UI-01",
+    "order": 47,
+    "lane": "Source/access needed",
+    "dependsOn": [],
+    "gate": "Exact candidate and preserved independent acceptance gates",
+    "nextAction": "Fix narrow calendar word fragmentation, compact mobile practice card, improve surface depth and opaque bottom navigation. Return screenshots at 375/430/~490px, tablet and desktop.",
+    "scope": "Original task remains open until its full deliverable and required acceptance are evidenced."
+  }
+]

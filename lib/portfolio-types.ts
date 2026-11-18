@@ -1,0 +1,3 @@
+export type PortfolioItem={id:string;type:string;kind?:string;title:string;lane:string;priority:string;status:string;owner:string;nextStep:string;doneMeans:string;note:string;proof:string;summary:string;related:string[];sourceDate:string;links:{label:string;url:string}[];original:unknown;updatedAt?:string};
+export type PortfolioData={items:PortfolioItem[];revision:number;savedAt:string|null;history:{id:string;itemId:string;at:string;status:string;note:string}[];importedAt:string;historyWindow:string};
+export const progressStates=['Needs review','Working on it','Waiting','Parked','Reference','Done','Learning and paper-practice setup; strategy validation incomplete'] as const;

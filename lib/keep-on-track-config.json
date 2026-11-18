@@ -1,0 +1,66 @@
+{
+  "schedule": {
+    "start": "October 29, 2026",
+    "end": "December 27, 2026",
+    "timezone": "America/New_York",
+    "times": [
+      "8 a.m.",
+      "1 p.m.",
+      "7 p.m."
+    ],
+    "status": "Daily plan \u00b7 verify the latest setup or run below"
+  },
+  "cashGoal": {
+    "amount": 5000,
+    "start": "October 29, 2026",
+    "target": "November 27, 2026",
+    "note": "Working 30-day target; current personal cash baseline is not verified."
+  },
+  "files": [
+    {
+      "title": "01 Project Instructions",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_8b90afaf93f88191bf947ee79fe5d2f6&account_id=personal"
+    },
+    {
+      "title": "02 Agent Team and Authority",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_97265f3a0c30819183e31ede8ee8d402&account_id=personal"
+    },
+    {
+      "title": "03 Three Daily Audits",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_0a9f071775f8819185ef8283b4258647&account_id=personal"
+    },
+    {
+      "title": "04 Goals and Priority Rules",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_e5dd2e66a8f48191bc1af9ca66697f32&account_id=personal"
+    },
+    {
+      "title": "05 Existing Sources and Gaps",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_04566f9631f08191b36d66e8a6dc91f8&account_id=personal"
+    },
+    {
+      "title": "06 BDN Season Show and Event Playbook",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_762aee5eb69c81919d3feaa130f548ad&account_id=personal"
+    },
+    {
+      "title": "07 Indoor Workout",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_e03a2535df348191badff86e27e50538&account_id=personal"
+    },
+    {
+      "title": "08 Dashboard and Connection Procedure",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_33eb03cb8a988191ad3cbd65adeb05b3&account_id=personal"
+    },
+    {
+      "title": "Keep Me on Track Complete Source",
+      "detail": "Current project source \u00b7 October 28, 2026",
+      "url": "https://chatgpt.com/library?file_id=libfile_0e620ffdb9e08191848c77bc4c7c4c65&account_id=personal"
+    }
+  ]
+}
