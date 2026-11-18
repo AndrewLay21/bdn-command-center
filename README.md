@@ -10,7 +10,7 @@ The recovered records spreadsheet should be added at `data/command-center-record
 - 246 portfolio items
 - 10 tickets
 
-The image files under `public/images/` (team portraits and platform logos) also still need to be added. They could not be uploaded automatically because the GitHub connection used for this recovery only accepts text files.
+The image files under `public/images/` (team portraits and platform logos) and the records spreadsheet were added on November 18, 2026, so this copy is complete.
 
 **Rule going forward:** all code lives in this GitHub repository. All records (tasks, portfolio, tickets, and day-to-day lists) live in Google Drive and Sheets.
 
