@@ -4,7 +4,7 @@ This is the Big Dreams Network Command Center app. It is the recovered master co
 
 It was recovered on November 18, 2026 from the ChatGPT Command Center project, after the live copy could not be opened from there.
 
-The recovered records spreadsheet should be added at `data/command-center-records-2026-11-18.xlsx`:
+The recovered records spreadsheet is at `data/command-center-records-2026-11-18.xlsx`:
 
 - 81 tasks
 - 246 portfolio items
