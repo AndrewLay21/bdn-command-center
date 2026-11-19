@@ -1,12 +1,23 @@
 import { neon } from "@neondatabase/serverless";
+import { getConnectionString } from "@netlify/database";
 import { drizzle, type NeonHttpDatabase } from "drizzle-orm/neon-http";
 import { sql } from "drizzle-orm";
 import * as schema from "./schema";
 import { loadSeedRecords, toRows } from "@/lib/seed-data";
 
-/** Netlify DB injects NETLIFY_DATABASE_URL (newer sites may get NETLIFY_DB_URL). */
+/**
+ * Netlify DB connection string: NETLIFY_DATABASE_URL (older name) or NETLIFY_DB_URL if set,
+ * otherwise whatever @netlify/database provides for this deploy (production DB or a preview branch).
+ * Returns "" when there is no database (local preview reads data/records.json instead).
+ */
 export function databaseUrl(): string {
-  return (process.env.NETLIFY_DATABASE_URL || process.env.NETLIFY_DB_URL || "").trim();
+  const fromEnv = (process.env.NETLIFY_DATABASE_URL || process.env.NETLIFY_DB_URL || "").trim();
+  if (fromEnv) return fromEnv;
+  try {
+    return (getConnectionString() || "").trim();
+  } catch {
+    return "";
+  }
 }
 
 export type Db = NeonHttpDatabase<typeof schema>;

@@ -19,7 +19,7 @@ The live app is a Next.js (App Router) + TypeScript + Tailwind + Drizzle app, ho
 | Name | What it is |
 | --- | --- |
 | `COMMAND_CENTER_PASSWORD` | The one owner password. Long and random. Changing it signs everyone out. |
-| `NETLIFY_DATABASE_URL` | Set by Netlify DB (`netlify db init`). Some sites get `NETLIFY_DB_URL`; the app reads either. Do not set by hand. |
+| `NETLIFY_DATABASE_URL` | Optional. Netlify DB connects automatically through `@netlify/database` (production database on prod deploys, a separate branch on deploy previews). If `NETLIFY_DATABASE_URL` or `NETLIFY_DB_URL` is set, the app uses it instead. |
 | `SESSION_SECRET` | Optional. If set, sessions are signed with it instead of a key made from the password. |
 
 ## First-time setup
@@ -29,7 +29,7 @@ npm install
 npx netlify login                      # or export NETLIFY_AUTH_TOKEN=<your token>
 npx netlify sites:create --name bdn-command-center
 npx netlify link --id <site-id>
-npx netlify db init                    # creates the Neon Postgres database and NETLIFY_DATABASE_URL
+npx netlify db init                    # Netlify DB (Neon Postgres); the first deploy provisions it and applies netlify/database/migrations
 npx netlify env:set COMMAND_CENTER_PASSWORD "<long-random-password>" --secret
 npx netlify deploy --build --prod
 ```
