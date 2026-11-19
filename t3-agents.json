@@ -1,0 +1,28 @@
+{
+  "_comment": "Maps Command Center agents (lib/team.ts ids) to the T3 Code provider that answers for them. 'provider' is a list of lowercase substrings matched against the T3 provider's displayName/driverKind from orchestrator_capabilities. Any agent not listed here is treated as NOT CONNECTED and keeps the draft-only box. Edit this file to connect or move agents; no code change needed.",
+  "providersOn": [
+    "Codex (Dex the Best)",
+    "Claude",
+    "Grok Titan",
+    "Grok Zeus",
+    "Antigravity",
+    "Mansa Muse"
+  ],
+  "agents": {
+    "zeus": { "provider": ["grok zeus", "zeus"], "status": "connected" },
+    "dex": { "provider": ["dex the best", "dex", "codex"], "status": "connected" },
+    "mansa": { "provider": ["mansa muse", "mansa", "muse"], "status": "connected" },
+    "levels": { "provider": ["antigravity"], "status": "connected" },
+    "forge": {
+      "provider": ["claude"],
+      "status": "connected",
+      "note": "Assigned to the single 'Claude' provider. If you'd rather point 'Claude' at Sage, Vision, or Lens, move this block to that agent id."
+    }
+  },
+  "unassignedProviders": [
+    {
+      "provider": "Grok Titan",
+      "note": "On in T3 but not matched to an agent yet. To connect one of the Grok Bot team (thoth, horus, imhotep, care, ref, safety), add e.g. \"thoth\": { \"provider\": [\"grok titan\"], \"status\": \"connected\" }."
+    }
+  ]
+}

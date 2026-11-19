@@ -63,3 +63,9 @@
  .ex-intro h2{font-size:28px !important}
 }
 .ex-view .mc-agent-card .ap-portrait{border:2px solid #9c8454}
+
+/* T3 live agent messaging (t3-integration) — structural only; inherits the dark theme. */
+.cc-live { display: grid; gap: 1rem; }
+.cc-threads { margin-top: .25rem; }
+.cc-thread-messages { margin-top: .5rem; display: grid; gap: .5rem; }
+.cc-thread-messages p { margin: 0; white-space: pre-wrap; }
