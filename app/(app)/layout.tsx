@@ -1,27 +1,41 @@
 import Link from "next/link";
 import { requireOwner } from "@/lib/auth";
 import { logout } from "../login/actions";
-import NavLinks from "./nav-links";
+import { Portrait } from "@/components/portrait";
+import { agentById } from "@/lib/team";
+import NavLinks, { TopCrumb } from "./nav-links";
+import "../legacy-styles/plain-center.css";
+import "../legacy-styles/avengers.css";
+import "../legacy-styles/executive-views.css";
+import "../legacy-styles/cc-v2.css";
 
 export const dynamic = "force-dynamic";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   await requireOwner();
   return (
-    <div className="min-h-dvh">
-      <header className="sticky top-0 z-20 border-b border-line bg-paper/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:flex-nowrap sm:px-6">
-          <Link href="/" className="flex items-center gap-2.5">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-ink font-serif text-sm font-bold text-gold">BD</span>
-            <span className="hidden font-serif text-lg font-bold sm:inline">Command Center</span>
-          </Link>
-          <NavLinks />
-          <form action={logout}>
-            <button className="rounded-lg px-2 py-1.5 text-sm whitespace-nowrap text-ink-soft hover:text-ink">Sign out</button>
-          </form>
+    <div className="pc-shell avengers-shell">
+      <a className="mc-skip" href="#mission-content">Skip to content</a>
+      <aside className="pc-side">
+        <Link href="/" className="pc-brand">
+          <span>BD<span>↗</span></span>
+          <div>BIG DREAMS<small>AVENGERS COMMAND CENTER</small></div>
+        </Link>
+        <div className="pc-side-label">EXECUTIVE OFFICE</div>
+        <NavLinks />
+        <div className="pc-side-bottom">
+          <div className="ex-owner"><Portrait agent={agentById("coach")} /><span>Coach Drew<small>Founder</small></span></div>
+          <p>🔒 Private to you</p>
         </div>
-      </header>
-      <main className="mx-auto max-w-6xl px-4 pt-8 pb-24 sm:px-6 sm:pt-12">{children}</main>
+      </aside>
+      <main className="pc-main">
+        <header className="pc-top">
+          <TopCrumb />
+          <form action={logout}><button type="submit">Sign out</button></form>
+        </header>
+        <div className="pc-content" id="mission-content" tabIndex={-1}>{children}</div>
+        <footer className="pc-footer cc-footer"><span>BIG DREAMS NETWORK / EXECUTIVE OFFICE</span><span>All times Eastern</span></footer>
+      </main>
     </div>
   );
 }

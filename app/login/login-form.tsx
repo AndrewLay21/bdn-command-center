@@ -16,7 +16,7 @@ export default function LoginForm({ next }: { next: string }) {
           autoComplete="current-password"
           required
           autoFocus
-          className="mt-1.5 block w-full rounded-xl border border-line bg-card px-4 py-3 text-base text-ink shadow-inner outline-none focus:border-gold focus:ring-2 focus:ring-gold/40"
+          className="mt-1.5 block w-full rounded-xl border border-line bg-[#0f1217] px-4 py-3 text-base text-ink shadow-inner outline-none focus:border-gold focus:ring-2 focus:ring-gold/40"
         />
       </label>
       {state.error ? (
@@ -27,7 +27,7 @@ export default function LoginForm({ next }: { next: string }) {
       <button
         type="submit"
         disabled={pending}
-        className="w-full rounded-xl bg-ink px-4 py-3 text-base font-semibold text-paper transition hover:bg-black disabled:opacity-60"
+        className="w-full rounded-lg border border-[#f4dca6] bg-[linear-gradient(135deg,#edcf8e,#cfaa59)] px-4 py-3 text-base font-bold text-[#17191e] transition hover:brightness-105 disabled:opacity-60"
       >
         {pending ? "Checking…" : "Open the Command Center"}
       </button>

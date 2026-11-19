@@ -80,10 +80,10 @@ export function FilterTabs({ base, current, options, keep }: { base: string; cur
             key={value}
             href={`${base}?${params}`}
             aria-current={active ? "page" : undefined}
-            className={`rounded-full border px-3.5 py-1.5 text-sm transition ${active ? "border-ink bg-ink text-paper" : "border-line bg-card text-ink-soft hover:border-gold"}`}
+            className={`rounded-full border px-3.5 py-1.5 text-sm transition ${active ? "border-gold bg-gold text-[#17191e]" : "border-line bg-card text-ink-soft hover:border-gold"}`}
           >
             {label}
-            {count !== undefined ? <span className={`ml-1.5 ${active ? "text-gold" : "text-ink-faint"}`}>{count}</span> : null}
+            {count !== undefined ? <span className={`ml-1.5 ${active ? "text-[#17191e]" : "text-ink-faint"}`}>{count}</span> : null}
           </Link>
         );
       })}
@@ -102,7 +102,7 @@ export function SearchBox({ action, q, show, placeholder }: { action: string; q?
         aria-label={placeholder}
         className="min-w-0 flex-1 rounded-xl border border-line bg-card px-4 py-2.5 outline-none focus:border-gold focus:ring-2 focus:ring-gold/40"
       />
-      <button className="rounded-xl border border-ink bg-ink px-4 py-2.5 text-sm font-semibold text-paper">Search</button>
+      <button className="rounded-xl border border-gold bg-gold px-4 py-2.5 text-sm font-semibold text-[#17191e]">Search</button>
     </form>
   );
 }

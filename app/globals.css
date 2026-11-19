@@ -1,22 +1,22 @@
 @import "tailwindcss";
 
-/* "Paper" look: warm off-white paper, ink-black text, Big Dreams gold accent. */
+/* Dark "Avengers" look: near-black, light text, Big Dreams gold. (Token names kept from the Paper version.) */
 @theme {
-  --color-paper: #faf7f0;
-  --color-paper-deep: #f2ece0;
-  --color-card: #fffdf8;
-  --color-ink: #1b1a17;
-  --color-ink-soft: #5b564c;
-  --color-ink-faint: #8a8476;
-  --color-line: #e6dfcf;
-  --color-gold: #d4af37;
-  --color-gold-ink: #8a6d12;
-  --color-gold-wash: #f7efd2;
-  --color-alert: #a33a24;
-  --color-alert-wash: #f8e4dc;
-  --color-ok: #2f6b3f;
-  --color-ok-wash: #e2efe3;
-  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --color-paper: #0b0d11;
+  --color-paper-deep: #1c2129;
+  --color-card: #151920;
+  --color-ink: #f1f3f6;
+  --color-ink-soft: #b1b7c3;
+  --color-ink-faint: #8a91a0;
+  --color-line: #363c47;
+  --color-gold: #dfbd76;
+  --color-gold-ink: #e7c989;
+  --color-gold-wash: #3a3020;
+  --color-alert: #ff9b85;
+  --color-alert-wash: #3a1d17;
+  --color-ok: #8fd19e;
+  --color-ok-wash: #183022;
+  --font-serif: Arial, Helvetica, sans-serif;
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -29,8 +29,8 @@ html {
 body {
   font-family: var(--font-sans);
   line-height: 1.55;
-  background-image: radial-gradient(rgba(27, 26, 23, 0.025) 1px, transparent 1px);
-  background-size: 4px 4px;
+  background: radial-gradient(ellipse at 90% 0, #30291b66, transparent 38%), #0b0d11;
+  color-scheme: dark;
 }
 h1, h2, h3 {
   font-family: var(--font-serif);
@@ -48,7 +48,7 @@ a { color: inherit; }
   background: var(--color-card);
   border: 1px solid var(--color-line);
   border-radius: 14px;
-  box-shadow: 0 1px 0 rgba(27, 26, 23, 0.04), 0 8px 24px -18px rgba(27, 26, 23, 0.25);
+  box-shadow: 0 10px 30px #0004;
 }
 .rule-gold {
   height: 3px;
