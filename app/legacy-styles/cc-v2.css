@@ -1,0 +1,65 @@
+/* v2 additions on top of the legacy Avengers styles: links in the nav, agent pages, draft inbox, phone layout. */
+.avengers-shell a{color:inherit}
+.avengers-shell .pc-side nav .pc-navbtn{text-decoration:none;cursor:pointer}
+.avengers-shell .pc-side nav .pc-navbtn .cc-icon{width:18px;text-align:center;color:#dfbd76;font-size:14px}
+.avengers-shell .pc-nav-records.active{color:#f3d595;background:#44382166;border-radius:8px}
+.avengers-shell .pc-nav-more>summary{color:#bac1ce;font-size:12px}
+.avengers-shell .pc-nav-more>.pc-navbtn{display:flex}
+.avengers-shell .pc-top form button{display:inline-flex;align-items:center;gap:6px;border:1px solid #444c59;background:#1c2129;color:#eceef2;border-radius:7px;padding:8px 13px;font-size:13px;cursor:pointer;min-height:38px}
+.avengers-shell .pc-top>div{display:flex;align-items:center;gap:8px;font-size:12px;min-width:0}
+.avengers-shell .pc-top>div b{color:#f3d595}
+.cc-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px 38px 40px;font-size:10px;letter-spacing:1.2px;border-top:1px solid #363c47}
+.cc-sub{color:#aab1bd;font-size:13px}
+.mc-specialist{text-decoration:none}
+.ex-founders .ex-owner{text-decoration:none}
+.cc-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cc-stats a{display:flex;flex-direction:column;gap:4px;padding:16px;border:1px solid #3a414d;border-radius:12px;background:linear-gradient(145deg,#1d222b,#12161c);text-decoration:none}
+.cc-stats a:hover{border-color:#cfb477}
+.cc-stats strong{font-size:30px;line-height:1;color:#f3d595}
+.cc-stats small{color:#b1b7c3;font-size:12px}
+.mc-agent-card{text-decoration:none}
+.cc-agent{display:flex;flex-direction:column;gap:22px}
+.cc-agent-hero{display:flex;gap:26px;align-items:center;padding:28px;border:1px solid #706044;border-radius:18px;background:radial-gradient(ellipse at 15% 0,#ffffff0d,transparent 60%),linear-gradient(115deg,#20252d,#101318 64%,#392c1955);box-shadow:0 25px 60px #0005,inset 0 1px #edcf8d66}
+.cc-agent-hero .ap-portrait{border:2px solid #dfbd76;box-shadow:0 0 0 6px #dfbd7622,0 18px 40px #0008}
+.cc-agent-hero h1{font-size:40px;line-height:1.05;margin:10px 0 6px;font-weight:750}
+.cc-role{color:#f3d595;font-size:16px;font-weight:600;margin:0}
+.cc-platform{color:#aab1bd;font-size:13px;margin:6px 0 0}
+.cc-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0}
+.cc-facts div{border:1px solid #3a414d;border-radius:12px;padding:14px;background:#151920}
+.cc-facts dt{color:#aab1bd;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+.cc-facts dd{margin:4px 0 0;font-size:26px;font-weight:700;color:#f1f3f6}
+.cc-warn{border:1px solid #7a6432;background:#2b2415;color:#f1dfae;border-radius:10px;padding:11px 13px;font-size:13px;line-height:1.5}
+.cc-compose{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.cc-compose label,.cc-pick{display:flex;flex-direction:column;gap:6px}
+.cc-compose textarea,.cc-pick select{width:100%;background:#0f1217;color:#f1f3f6;border:1px solid #444c59;border-radius:10px;padding:12px;font:inherit;font-size:16px}
+.cc-compose textarea:focus,.cc-pick select:focus{border-color:#dfbd76;outline:none}
+.cc-compose-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.cc-compose .mc-primary:disabled{opacity:.5;cursor:not-allowed}
+.cc-drafts{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-direction:column;gap:10px}
+.cc-drafts li{border:1px solid #363c47;border-radius:10px;padding:12px;background:#12161c}
+.cc-drafts p{margin:6px 0 0;white-space:pre-wrap;color:#e6e9ee !important;font-size:14px !important}
+.cc-draft-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#aab1bd;font-size:12px}
+.cc-draft-meta button{background:none;border:0;color:#e7c989;cursor:pointer;font-size:12px;padding:0}
+.cc-prevnext{display:flex;justify-content:space-between;gap:10px}
+.cc-prevnext a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#e7c989;font-size:13px}
+.mc-panel details>summary,details.mc-panel>summary{cursor:pointer;color:#e7c989;font-weight:600}
+/* existing Tailwind pages (tasks, tickets, projects) inside the dark shell */
+.avengers-shell .pc-content h1{font-family:Arial,Helvetica,sans-serif}
+@media(max-width:780px){
+ .avengers-shell .pc-brand{margin-bottom:12px}
+ .avengers-shell .pc-side nav{display:flex;flex-wrap:wrap;gap:6px;overflow:visible}
+ .avengers-shell .pc-side nav .pc-navbtn{min-width:0;min-height:40px;flex:1 1 calc(33% - 6px);justify-content:center;padding:8px 6px;font-size:12px;border:1px solid #2f353f;white-space:nowrap}
+ .avengers-shell .pc-nav-records,.avengers-shell .pc-nav-more{min-width:0 !important;flex:1 1 calc(50% - 6px);border:1px solid #2f353f;border-radius:8px}
+ .avengers-shell .pc-nav-more[open]{flex-basis:100%}
+ .avengers-shell .pc-nav-more>.pc-navbtn{display:inline-flex;margin:4px}
+ .avengers-shell .pc-top{padding:0 14px}
+ .avengers-shell .pc-top>div>span:first-child{display:none}
+ .avengers-shell .pc-content{padding:20px 14px}
+ .cc-footer{padding:16px 14px 30px}
+ .cc-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .mc-specialists{grid-template-columns:1fr !important}
+ .cc-agent-hero{flex-direction:column;text-align:center;padding:24px 18px}
+ .cc-agent-hero h1{font-size:34px}
+ .ex-intro h2{font-size:28px !important}
+}
+.ex-view .mc-agent-card .ap-portrait{border:2px solid #9c8454}
