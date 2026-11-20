@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { TaskCard, TicketCard } from "@/components/cc";
 import { Portrait } from "@/components/portrait";
 import DraftBox from "@/components/draft-box";
+import AgentMessaging from "@/components/agent-messaging";
+import { isAgentConnected } from "@/lib/t3-agents";
 import { byPriority, getAllRecords, isOpenTask, isOpenTicket } from "@/lib/records";
 import { agentById, agents, ownerMatches } from "@/lib/team";
 
@@ -49,7 +51,11 @@ export default async function AgentPage({ params }: { params: Promise<{ id: stri
 
       <section className="mc-panel">
         <h3>Message {agent.name}</h3>
-        <DraftBox agentId={agent.id} agentName={agent.name} />
+        {isAgentConnected(agent.id) ? (
+          <AgentMessaging agentId={agent.id} agentName={agent.name} />
+        ) : (
+          <DraftBox agentId={agent.id} agentName={agent.name} />
+        )}
       </section>
 
       <section>
